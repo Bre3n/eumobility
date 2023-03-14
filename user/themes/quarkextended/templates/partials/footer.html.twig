@@ -1,0 +1,81 @@
+    <section id="footer" class="footer" style="z-index: 1;">
+        <section class="container {{ grid_size }}">		
+				
+            <div class="columns">
+                    <div class="column col-4 col-md-6 col-sm-12" >
+                        <h6>ERASMUS+:</h6>
+						{#
+						<ul>							
+							<li><a href="{{ base_url }}/erasmus-plus/{{ "POLAND"|t|e|underscorize }}" title="Erasmus+ {{ "POLAND"|t|e }}">{{ "POLAND"|t|e }}</a></li>
+							<li><a href="{{ base_url }}/erasmus-plus/{{ "CROATIA"|t|e|underscorize }}" title="Erasmus+ {{ "CROATIA"|t|e }}">{{ "CROATIA"|t|e }}</a></li>
+							<li><a href="{{ base_url }}/erasmus-plus/{{ "SWEDEN"|t|e|underscorize }}" title="Erasmus+ {{ "SWEDEN"|t|e }}">{{ "SWEDEN"|t|e }}</a></li>
+						</ul>
+						#}
+						{# Tomek - generujące się menu z page z tag to_menu_footer_erasmus #}												 
+						{% for p1 in taxonomy.findTaxonomy({'tag':'to_menu_footer_erasmus'}) %}
+							<ul>
+								 
+									<li><a href="{{ p1.url }}" title="{{ p1.menu }}">{{ p1.menu }}</a></li>
+									{# p.title - pobiera wartość z tytułu strony , p.menu - z pola ustawianego w edyccji strony Advance: Menu (stosuje gdy chcę capitalize litery w różnych meny) #}
+								 
+							</ul>
+						{% endfor %}
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">                       
+                        <h6>{{ "INFORMATIONS"|t|e }}:</h6>
+						{# Stara wersja
+						<ul>							
+							<li><a href="{{ base_url }}/{{ "ABOUT_US"|t|e|underscorize|hyphenize }}" title="{{ "ABOUT_US"|t|e }}">{{ "ABOUT_US"|t|e }}</a></li>
+							<li><a href="{{ base_url }}/{{ "PROJECTS_ERASMUS"|t|e|underscorize|hyphenize }}" title="{{ "PROJECTS_ERASMUS"|t|e }}">{{ "PROJECTS_ERASMUS"|t|e }}</a></li>
+							<li><a href="{{ base_url }}/{{ "CONTACT"|t|e|underscorize|hyphenize }}" title="{{ "CONTACT"|t|e }}">{{ "CONTACT"|t|e }}</a></li>
+							<li><a href="{{ base_url }}/{{ "PRIVACY"|t|e|underscorize|hyphenize }}" rel="nofollow" title="{{ "PRIVACY"|t|e }}">{{ "PRIVACY"|t|e }}</a></li>
+						</ul>
+						#}
+
+						{# Tomek - generujące się menu z page z tag to_menu_footer_informacje #}												 
+							{% for p in taxonomy.findTaxonomy({'tag':['to_menu_footer_informacje']}).order('date', 'desc') %}
+								<ul>
+								 
+									<li><a href="{{ p.url }}" title="{{ p.menu }}">{{ p.title }}</a></li>
+									{# p.title - pobiera wartość z tytułu strony , p.menu - z pola ustawianego w edyccji strony Advance: Menu (stosuje gdy chcę capitalize litery w różnych meny) #}
+								 
+								</ul>
+							{% endfor %}
+							 
+
+                    </div>
+                    <div class="column col-4 col-md-6 col-sm-12">
+                        <div class="footer-contact">
+						 	<h6>EU Mobility</h6>
+							<ul class="footer-cont-adr">
+							<li><i class="fa fa-phone-square" style="margin-right: 10px;"></i><a href="tel:+48 501 772 019" style="font-size: larger;" title="+47 92 55 0350">+48 501 772 019</a></li>
+							<li><i class="fa fa-envelope" style="margin-right: 10px;"></i>							
+							<script language="JavaScript" type="text/javascript">
+							var part1 = "info";
+							var part2 = Math.pow(2,6);
+							var part3 = String.fromCharCode(part2);
+							var part4 = "eumobility.pl";
+							var part5 = part1 + String.fromCharCode(part2) + part4;
+							document.write("<a href=" + "mai" + "lto" + ":" 
+							+ part5 + ">" + part1 + part3 + part4 + "</a>");
+							</script>							
+							</li>
+							
+							<li><i class="fa-brands fa-facebook" style="margin-right: 10px;"></i><a href="https://www.facebook.com/profile.php?id=100063488585533" title="EU Mobility Facebook Poland Polska">Facebook (PL)</a></li>
+							<li><i class="fa-brands fa-facebook" style="margin-right: 10px;"></i><a href="https://www.facebook.com/eumobilitysverige" title="EU Mobility Facebook Sweden Szwecja">Facebook (SE)</a></li>
+							<li><i class="fa-brands fa-facebook" style="margin-right: 10px;"></i><a href="https://www.facebook.com/profile.php?id=100086284754057" title="EU Mobility Facebook Croatia Chorwacja">Facebook (HR)</a></li>
+							<br>
+							
+							
+							</ul>
+
+							
+						</div>
+                   </div>
+			</div>			
+			
+			<div style="font-size: 0.7em; padding-top: 10px; text-align: center; color: #FFF;">&copy; {{ "now"|date('Y') }} EU Mobility</div>
+			<div style="font-size: 0.6em; padding-top: 10px; text-align: center; color: #C5C2C2;"><a href="https://projektowanie-stron-internetowych.pl/" title="Projektowanie stron internetowych Dąbrowa Górnicza" style="color: #C5C2C2;">projektowanie-stron-internetowych.pl</a></div>			
+			
+        </section>
+    </section>

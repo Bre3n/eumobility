@@ -1,0 +1,29 @@
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '': ['user://themes/quarkextended', 'user://themes/quark']
+enabled: true
+production-mode: true
+grid-size: grid-lg
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+spectre:
+  exp: false
+  icons: false
+custom_logo:
+  user/themes/quarkextended/images/logo/logo3x.png:
+    name: logo3x.png
+    type: image/png
+    size: 104167
+    path: user/themes/quarkextended/images/logo/logo3x.png
+custom_logo_mobile:
+  user/themes/quarkextended/images/logo/logo3x.png:
+    name: logo3x.png
+    type: image/png
+    size: 39995
+    path: user/themes/quarkextended/images/logo/logo3x.png

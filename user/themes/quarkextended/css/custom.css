@@ -1,0 +1,448 @@
+/*------------------------------------------------------------------
+    [parallax]
+------------------------------------------------------------------*/
+.parallax-window {
+    background-image: linear-gradient(left, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+    background-image: -moz-linear-gradient(left, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+    background-image: -webkit-linear-gradient(left, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));    
+
+    background: -moz-linear-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+    background: -webkit-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1)); 
+    background: -webkit-linear-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+    background: -o-linear-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+    background: linear-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1));
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+.parallax-content {
+    min-height: 280px;
+    padding: 140px 0 0 50px;
+    color: #aeaeb3;
+    padding-top: 200px; 
+    padding-bottom: 90px;
+}
+
+.parallax-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    text-align: left;
+    margin-top: 0;
+}
+
+.parallax-content p {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.1;
+    text-align: left;
+}
+
+
+/*------------------------------------------------------------------
+    [langswitcher]
+------------------------------------------------------------------*/
+
+.langswitcher {
+    margin-left: 1rem !important;
+    display: inline-block;
+    margin: 0;
+
+    position: relative;
+    top: 0;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.langswitcher li {
+    display: inline-block;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    
+}
+
+.langswitcher .active {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B7066E;
+}
+
+.langswitcher a {
+    color: #0079C2;    
+}
+
+.langswitcher a:hover {
+    color: #B7066E;  
+    background: #38329e;
+    text-decoration: none;
+}
+
+
+
+/*------------------------------------------------------------------
+   Grav
+------------------------------------------------------------------*/
+
+
+
+/* For all / mobile: */
+
+body {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #e40186;;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0;
+} 
+
+#body-wrapper .container {
+    padding: 0rem 0 2rem;
+}
+
+.form-label {
+    padding: .5rem 0;
+    font-size: smaller;
+}
+
+.btn,
+.button {
+    font-size: 1.3rem;
+    height: auto;
+    white-space: normal;
+    border-radius: 25px;
+}
+.btn:focus, .btn:hover, .button:focus, .button:hover {
+    background: #fa4bb1;
+    color: rgb(255, 255, 255);
+    border-color: #FFF;
+}
+.btn-transp {
+    background: none;
+}
+.btn-white {
+    width: 100%;
+    color: #FFF;
+    border-color: #FFF;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+.btn-purp {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: #C50978;
+}
+
+.p-10 {
+    padding: 1rem !important;
+}
+
+.treemenu li a {
+    font-size: 1.4rem;
+}
+
+.treemenu li {
+    line-height: 1.4rem;
+    padding: 10px 0;
+}
+
+.treemenu .toggler {
+    font-size: 2.1rem;
+    padding-right: 8px;
+}
+
+.mobile-menu .button_container {
+    top: 3rem !important;
+    right: 2rem;
+}
+
+
+#breadcrumbs {
+    line-height: 3rem;
+    font-size: 70%;
+    display: inline;
+    display: block;
+    margin-bottom: 0;
+}
+
+#breadcrumbs i {
+    display: unset;
+}
+
+#breadcrumbs span:not(:first-child)::before,
+#breadcrumbs a:not(:first-child)::before {
+    content: none;
+}
+
+#breadcrumbs span,
+#breadcrumbs a {
+    padding: 0 .2rem;
+}
+
+.form-input,
+.search-input,
+[data-grav-field="array"] input,
+[data-grav-field="array"] textarea {
+    background-color: #fff;
+}
+
+#header .navbar-section a {
+    color: #008CD3;
+    
+}
+
+#header {
+    font-size: .8rem;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.25);
+    height: 6.5rem;
+    padding-top: 41px; 
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.dropmenu ul li a:hover,
+.dropmenu ul li a:focus,
+.dropmenu ul li a.active {
+    color: #008CD3 !important;
+    border-radius: 25px;
+}
+.dropmenu ul li a.active, .dropmenu ul li a:focus, .dropmenu ul li a:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #008CD3;
+}
+
+.modular-text {
+    padding-top: 1rem;
+}
+
+ 
+body.header-fixed.header-animated #header.scrolled { 
+    height: 4.5rem;
+    padding-top: 14px; }
+body.header-fixed.header-animated #header.scrolled .navbar-section { 
+    height: 4.5rem;
+    padding-top: 14px;
+ }
+
+.header-transparent #header:not(.scrolled) {
+    background: rgba(0, 0, 0, 0.25);    
+}
+
+.modular-features .feature-icon {
+    color: #FF9CA1;
+}
+
+.modular-features .feature-icon :hover {
+    color: #ec0072;
+}
+
+.modular-features .feature-icon h6 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #5079AF;
+    background: rgba(255, 255, 255, 0.7)
+}
+
+.modular-features .feature-content {
+    color: #8D94A3;
+}
+
+.header-fixed #body-wrapper {
+    padding-top: 1rem;
+}
+
+#header .logo img, #header .logo svg {
+    display: inherit;
+    height: 60px;
+}
+
+#footer { 
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 78%;
+    background-image: -moz-linear-gradient(top,#008CD3, #0079B6);
+    background-color: #008CD3;
+}
+
+#footer h6 {
+    color: #fff;
+    font-size: 120%;
+    margin-top: 1rem;
+}
+
+.footer-contact {
+    color: #c9c9c9;
+    margin: auto;
+    margin-top: auto;
+    width: 100%;
+    padding: 0px 10px 10px;
+    padding-left: 10px;
+}
+
+ 
+
+.footer ul {
+    margin-left: 10px;
+}
+
+.footer li {
+    margin-left: 20px;
+}
+
+.footer-cont-adr li {
+    margin-left: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer a {
+    color: #9ff55a;
+}
+
+.footer a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.contact-table {
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contact-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.contact-table th {
+    color: #ec0072;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contact-table th,
+.contact-table td {
+    border: 1px solid #dfdfdf;
+    padding: 15px 15px;
+    line-height: 18px;
+}
+
+
+.onas-table {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.onas-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.onas-table th {
+    text-align: left;
+    width: 60%;
+}
+
+.onas-table th,
+.contact-table td {
+    border: none;
+    line-height: 18px;
+}
+
+.offers-list {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 140, 25);
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 10px;
+}
+.offers-list p {
+    margin: 0 !important;
+} 
+
+.px-oferta-img {
+    padding-right: 1.1rem !important;
+    padding-left: .4rem !important;
+}
+
+
+.pl-4rem {
+    padding-left: 4rem !important;
+}
+
+.pl-1rem {
+    padding-left: 1rem !important;
+}
+
+.pd-1rem {
+    padding-bottom: 1rem !important;
+    ;
+}
+
+.img-to-list {
+    vertical-align: middle;
+}
+
+.stickyy {
+    position: sticky;    
+    position: -webkit-sticky;
+    top: 90px;
+    height: 200px;
+    padding-bottom: 330px;
+}
+
+
+.toast.toast-error {
+    margin-top: 150px !important;
+  }
+
+
+/* FOR MOBILE */
+@media only screen and (max-width: 768px) {
+    .parallax-content { 
+        padding: 0 0 0 20px;
+        padding-top: 155px; padding-bottom: 20px; 
+    }
+    .parallax-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .m-top-50 {
+        margin-top: 50px;
+    }
+}

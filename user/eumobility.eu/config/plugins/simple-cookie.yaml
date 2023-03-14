@@ -1,0 +1,13 @@
+enabled: true
+custom: false
+position: bottom-right
+compliance: info
+palette: gray
+layout: edgeless
+informations: /pl/polityka-prywatnosci-i-cookies
+banner_message: ' '
+banner_dismiss: OK
+banner_deny: null
+banner_accept: OK
+banner_policy: ' Polityka prywatności i cookies.'
+custom_config: null
