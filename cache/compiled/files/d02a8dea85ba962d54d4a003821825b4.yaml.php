@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/sitemap/languages.yaml',
-    'modified' => 1678787991,
-    'size' => 6704,
+    'modified' => 1678878608,
+    'size' => 6846,
     'data' => [
         'en' => [
             'PLUGIN_SITEMAP' => [

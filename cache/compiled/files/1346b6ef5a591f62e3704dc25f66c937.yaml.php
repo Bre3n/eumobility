@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/languages/si.yaml',
-    'modified' => 1678787959,
-    'size' => 191,
+    'modified' => 1678878604,
+    'size' => 200,
     'data' => [
         'GRAV' => [
             'INFLECTOR_SINGULAR' => [

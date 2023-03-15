@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/id.yaml',
-    'modified' => 1678788070,
-    'size' => 39196,
+    'modified' => 1678878605,
+    'size' => 39904,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Silahkan aktifkan JavaScript di browser Anda.',

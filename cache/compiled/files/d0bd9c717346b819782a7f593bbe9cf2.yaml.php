@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/de.yaml',
-    'modified' => 1678788068,
-    'size' => 57923,
+    'modified' => 1678878605,
+    'size' => 58888,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Bitte aktivieren Sie JavaScript in Ihrem Browser.',

@@ -115,9 +115,39 @@ section.darkMode {
     background-color: #111;
 }
 
+
+
+/*------------------------------------------------------------------
+    [Thomas] Powiększenie.
+------------------------------------------------------------------*/
+
+img{
+    overflow: hidden;
+    padding: 0;
+
+border:1px solid #000;
+}
+img {
+    transition-duration: 1.8s;
+    margin: 0 auto;
+    display: block;
+}
+img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+
+
+
+
+
 /*------------------------------------------------------------------
     [langswitcher]
 ------------------------------------------------------------------*/
+
 
 .langswitcher {
     margin-left: 1rem !important;

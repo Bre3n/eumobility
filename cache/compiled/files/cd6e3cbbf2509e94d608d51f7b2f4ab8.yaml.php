@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/languages/nb.yaml',
-    'modified' => 1678787960,
-    'size' => 247,
+    'modified' => 1678878604,
+    'size' => 251,
     'data' => [
         'GRAV' => [
             'MONTHS_OF_THE_YEAR' => [

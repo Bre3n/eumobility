@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/zh-cn.yaml',
-    'modified' => 1678788070,
-    'size' => 58490,
+    'modified' => 1678878605,
+    'size' => 59602,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => '请在您的浏览器中启用 JavaScript。',

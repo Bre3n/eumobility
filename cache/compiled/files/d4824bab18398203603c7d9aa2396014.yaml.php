@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/pagination/languages.yaml',
-    'modified' => 1678788124,
-    'size' => 988,
+    'modified' => 1678878608,
+    'size' => 1008,
     'data' => [
         'en' => [
             'PLUGIN_PAGINATION' => [
