@@ -41,7 +41,7 @@ Go ahead, call or write.
 
             <div class="column col-6 col-md-12" style="padding: 1rem;">             
                 
-                <a href="{{ base_url }}" class="navbar-brand mr-10"><img src="/user/themes/quarkextended/images/logo/logo3x.png" alt="EU Mobility logo"  style="width: 80%;"></a><br><br>       
+                <a href="{{ base_url }}" class="navbar-brand mr-10"><img src="/eu/user/themes/quarkextended/images/logo/logo3x.png" alt="EU Mobility logo"  style="width: 80%;"></a><br><br>       
                 
                 <i class="fa fa-phone-square" style="margin-right: 10px; color: #e40186; font-size: larger;"></i> <i class="fab fa-whatsapp" style="margin-right: 10px; color: #e40186; font-size: larger;"></i><a href="tel:0048509849219" title=" 00 48 501 77 20 19" style="font-size: larger;"> 00 48 501 77 20 19</a> 
                 <br><br>     

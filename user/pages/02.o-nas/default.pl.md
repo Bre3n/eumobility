@@ -37,7 +37,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
 
 <div class="columns text-centered"  style="margin-bottom: 20px;">
     <div class="column col-6 col-md-12 text-center" style="padding: 40px;">
-        <p><img src="/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%"></p>
+        <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%"></p>
         <p style="font-weight: bold;">Patrycja Pilarek<p>
         <p>CEO<br><br>            
         <a href="mailto:{{ 'patrycja@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                    
@@ -46,7 +46,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
     </div>
 
     <div class="column col-6 col-md-12 text-center" style="padding: 40px">        
-        <p><img src="/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%"></p>
+        <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%"></p>
         <p style="font-weight: bold;">Karol Pilarek<p>
         <p>Executive Director<br><br>            
         <a href="mailto:{{ 'karolpilarek@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                    
@@ -57,7 +57,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
 <div class="columns">
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center" >
                         <h3><strong>EU Mobility Poland:</strong></h3><br>
-                        <p><img src="/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%"></p>
                         <p style="font-weight: bold;">Karolina Maciejewska<p>        
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'karolina@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>
@@ -65,7 +65,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">                       
                          <h3><strong>EU Mobility Sverige:</strong></h3><br>	
-                         <p><img src="/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%"></p>
+                         <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%"></p>
                           <p style="font-weight: bold;">Anush Poghosyan<p>
                           <p>Office Manager<br><br>
                           <a href="mailto:{{ 'projects@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                                        
@@ -73,7 +73,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">
 						<h3><strong>EU Mobility Croatia:</strong></h3><br>
-                        <p><img src="/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%"></p>
                         <p style="font-weight: bold;">Katrina Vuka<p>
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'katarina@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                                    
@@ -92,10 +92,10 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
 <div class="container">
     <div class="columns">  
         <div class="column col-6 col-md-12 text-center">
-            <img src="/user/pages/02.o-nas/logo-szwecja.png" class="img-fit-cover" alt="eu mobility sverige internship training logo">
+            <img src="/eu/user/pages/02.o-nas/logo-szwecja.png" class="img-fit-cover" alt="eu mobility sverige internship training logo">
         </div>
         <div class="column col-6 col-md-12 text-center m-top-50">   
-            <img src="/user/pages/02.o-nas/logo-chorwacja.png" class="img-fit-cover" alt="eu mobility croatia internships training logo">
+            <img src="/eu/user/pages/02.o-nas/logo-chorwacja.png" class="img-fit-cover" alt="eu mobility croatia internships training logo">
         </div>
     </div>
 </div>

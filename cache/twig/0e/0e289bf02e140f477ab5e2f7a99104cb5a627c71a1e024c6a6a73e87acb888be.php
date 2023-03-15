@@ -65,105 +65,106 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
         // line 6
         echo twig_escape_filter($this->env, (($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "language", []), "getActive", [])) ? ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "language", []), "getActive", [])) : ($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", []), "site", []), "default_lang", []))), "html", null, true);
         echo "\">
-<head>
+\t<head>
 
-";
+\t\t";
         // line 9
         $this->displayBlock('head', $context, $blocks);
-        // line 20
+        // line 25
         echo "
-";
-        // line 21
+\t\t";
+        // line 26
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 29
+        // line 38
         echo "
-";
-        // line 30
+\t\t";
+        // line 39
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 35
-        echo "
-";
-        // line 36
-        $this->displayBlock('assets', $context, $blocks);
-        // line 40
-        echo "
-<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
-<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
-<link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\"> 
-
-<link rel=\"icon\" type=\"image/png\" href=\"";
         // line 45
-        echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/favicon.png"), "html", null, true);
-        echo "\" />
-<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"";
+        echo "
+\t\t";
         // line 46
+        $this->displayBlock('assets', $context, $blocks);
+        // line 50
+        echo "
+
+\t\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+\t\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+\t\t<link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\">
+
+\t\t<link rel=\"icon\" type=\"image/png\" href=\"";
+        // line 56
+        echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/favicon.png"), "html", null, true);
+        echo "\"/>
+\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"";
+        // line 57
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/apple-touch-icon.png"), "html", null, true);
         echo "\">
-<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"";
-        // line 47
+\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"";
+        // line 58
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/favicon-32x32.png"), "html", null, true);
         echo "\">
-<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"";
-        // line 48
+\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"";
+        // line 59
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/favicon-16x16.png"), "html", null, true);
         echo "\">
-<link rel=\"manifest\" href=\"";
-        // line 49
+\t\t<link rel=\"manifest\" href=\"";
+        // line 60
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/site.webmanifest"), "html", null, true);
         echo "\">
-<link rel=\"mask-icon\" href=\"";
-        // line 50
+\t\t<link rel=\"mask-icon\" href=\"";
+        // line 61
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://favicon/safari-pinned-tab.svg"), "html", null, true);
         echo "\" color=\"#5bbad5\">
-<meta name=\"msapplication-TileColor\" content=\"#da532c\">
-<meta name=\"theme-color\" content=\"#ffffff\">
-</head>
-<body id=\"top\" class=\"";
-        // line 54
+\t\t<meta name=\"msapplication-TileColor\" content=\"#da532c\">
+\t\t<meta name=\"theme-color\" content=\"#ffffff\">
+\t</head>
+\t<body id=\"top\" class=\"";
+        // line 65
         $this->displayBlock('body_classes', $context, $blocks);
         echo "\">
 
-    <div id=\"page-wrapper\">
-    ";
-        // line 57
+\t\t<div id=\"page-wrapper\">
+\t\t\t";
+        // line 68
         $this->displayBlock('header', $context, $blocks);
-        // line 102
+        // line 132
         echo "
-    ";
-        // line 103
+\t\t\t";
+        // line 133
         $this->displayBlock('parallaxtoinclude', $context, $blocks);
-        echo "  
-    ";
-        // line 104
+        // line 134
+        echo "\t\t\t";
         $this->displayBlock('hero', $context, $blocks);
-        // line 105
+        // line 135
         echo "
-        <section id=\"start\">
-        ";
-        // line 107
-        $this->displayBlock('body', $context, $blocks);
-        // line 117
-        echo "        </section>
-
-    </div>
-
-    ";
-        // line 121
-        $this->displayBlock('footer', $context, $blocks);
-        // line 124
-        echo "
-    ";
-        // line 125
-        $this->displayBlock('mobile', $context, $blocks);
+\t\t\t<section id=\"start\">
+\t\t\t\t";
         // line 137
+        $this->displayBlock('body', $context, $blocks);
+        // line 147
+        echo "\t\t\t</section>
+
+\t\t</div>
+
+\t\t";
+        // line 151
+        $this->displayBlock('footer', $context, $blocks);
+        // line 154
         echo "
-";
-        // line 138
+\t\t";
+        // line 155
+        $this->displayBlock('mobile', $context, $blocks);
+        // line 167
+        echo "
+\t\t";
+        // line 168
         $this->displayBlock('bottom', $context, $blocks);
-        // line 141
+        // line 171
         echo "
-</body>
-</html>";
+\t</body>
+</html>
+";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
@@ -176,74 +177,96 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
     public function block_head_deferred($context, array $blocks = [])
     {
         // line 10
-        echo "    <meta charset=\"utf-8\" />
-    ";
+        echo "\t\t\t<meta charset=\"utf-8\"/>
+\t\t\t";
         // line 11
         $this->loadTemplate("partials/langswitcher.hreflang.html.twig", "partials/base.html.twig", 11)->display($context);
         // line 12
-        echo "    <title>";
+        echo "\t\t\t<title>
+\t\t\t\t";
+        // line 13
         if ($this->getAttribute(($context["page"] ?? null), "title", [])) {
+            // line 14
+            echo "\t\t\t\t\t";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "title", []), "html");
-            echo " | ";
+            echo "
+\t\t\t\t\t|
+\t\t\t\t";
         }
+        // line 17
+        echo "\t\t\t\t";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html");
         echo "</title>
 
-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    ";
-        // line 16
-        $this->loadTemplate("partials/metadata.html.twig", "partials/base.html.twig", 16)->display($context);
-        // line 17
-        echo "    
-    <link rel=\"canonical\" href=\"";
-        // line 18
+\t\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t\t";
+        // line 21
+        $this->loadTemplate("partials/metadata.html.twig", "partials/base.html.twig", 21)->display($context);
+        // line 22
+        echo "
+\t\t\t<link rel=\"canonical\" href=\"";
+        // line 23
         echo twig_escape_filter($this->env, $this->getAttribute(($context["page"] ?? null), "url", [0 => true, 1 => true], "method"), "html", null, true);
-        echo "\" />
-";
+        echo "\"/>
+\t\t";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 21
+    // line 26
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 22
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))], "method");
-        // line 23
-        echo "    ";
-        if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.exp")) {
-            $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))], "method");
-        }
-        // line 24
-        echo "    ";
-        if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.icons")) {
-            $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))], "method");
-        }
-        // line 25
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))], "method");
-        // line 26
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css"], "method");
-        echo " 
-    ";
         // line 27
+        echo "\t\t\t";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))], "method");
+        // line 28
+        echo "\t\t\t";
+        if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.exp")) {
+            // line 29
+            echo "\t\t\t\t";
+            $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))], "method");
+            // line 30
+            echo "\t\t\t";
+        }
+        // line 31
+        echo "\t\t\t";
+        if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.icons")) {
+            // line 32
+            echo "\t\t\t\t";
+            $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))], "method");
+            // line 33
+            echo "\t\t\t";
+        }
+        // line 34
+        echo "\t\t\t";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))], "method");
+        // line 35
+        echo "\t\t\t";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css"], "method");
+        // line 36
+        echo "\t\t\t";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/all.min.css"], "method");
+        // line 37
+        echo "\t\t";
     }
 
-    // line 30
+    // line 39
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 31
-        echo "    ";
+        // line 40
+        echo "\t\t\t";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 101], "method");
-        // line 32
-        echo "    ";
+        // line 41
+        echo "\t\t\t";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.treemenu.js", 1 => ["group" => "bottom"]], "method");
-        // line 33
-        echo "    ";
+        // line 42
+        echo "\t\t\t";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/site.js", 1 => ["group" => "bottom"]], "method");
+        // line 43
+        echo "\t\t\t";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/darkmode.js", 1 => ["group" => "bottom"]], "method");
+        // line 44
+        echo "\t\t";
     }
 
     public function block_assets($context, array $blocks = [])
@@ -251,200 +274,222 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
         $this->deferred->defer($this, 'assets');
     }
 
-    // line 36
+    // line 46
     public function block_assets_deferred($context, array $blocks = [])
     {
-        // line 37
-        echo "    ";
+        // line 47
+        echo "\t\t\t";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
-    ";
-        // line 38
+\t\t\t";
+        // line 48
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
-";
+\t\t";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 54
+    // line 65
     public function block_body_classes($context, array $blocks = [])
     {
         echo twig_escape_filter($this->env, ($context["body_classes"] ?? null), "html", null, true);
     }
 
-    // line 57
+    // line 68
     public function block_header($context, array $blocks = [])
     {
-        echo "                    
+        // line 69
+        echo "
+\t\t\t\t<section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
 
-        <section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
-
-            <section class=\"container ";
-        // line 61
+\t\t\t\t\t<section
+\t\t\t\t\t\tclass=\"container ";
+        // line 73
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
-        echo " text-right\">            
-                <div class=\"text-right d-inline\" style=\"padding-right: 30px; border-right: 1px solid rgba(0, 0, 0, 0.5); color: #000;\"><i class=\"fab fa-whatsapp\" style=\"margin-right: 10px;\"></i><i class=\"fas fa-phone-alt\" style=\"margin-right: 10px;\"></i> ";
-        // line 62
+        echo " text-right\">
+
+\t\t\t\t\t\t";
+        // line 76
+        echo "
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"position:fixed;padding-right:20px;padding-left:20px;padding-top:10px;\">
+\t\t\t\t\t\t\t<input type=\"checkbox\" class=\"checkbox_mg\" id=\"chk\"/>
+\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\">
+\t\t\t\t\t\t\t\t<i class=\"fas fa-moon\"></i>
+\t\t\t\t\t\t\t\t<i class=\"fas fa-sun\"></i>
+\t\t\t\t\t\t\t\t<div class=\"ball_mg\"></div>
+\t\t\t\t\t\t\t</label>
+\t\t\t\t\t\t</div>
+
+\t\t\t\t\t\t";
+        // line 87
+        echo "
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"padding-right: 30px;padding-left:80px;border-right: 1px solid rgba(0, 0, 0, 0.5); color: #000;\">
+\t\t\t\t\t\t\t<i class=\"fab fa-whatsapp\" style=\"margin-right: 10px;\"></i>
+\t\t\t\t\t\t\t<i class=\"fas fa-phone-alt\" style=\"margin-right: 10px;\"></i>
+\t\t\t\t\t\t\t";
+        // line 91
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->translate($this->env, "HEADER_CALL"));
         echo "</div>
-                <div class=\"text-right d-inline\" style=\"padding-right: 20px; color: #fff;\">";
-        // line 63
-        $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 63)->display($context);
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"padding-right: 20px; color: #fff;\">";
+        // line 92
+        $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 92)->display($context);
         echo "</div>
-                <div class=\"text-right d-inline\" style=\"padding-right:20px; color:green\">fff</div>
-            </section>                        
 
-        </section>
+\t\t\t\t\t</section>
+\t\t\t\t</section>
 
 
-        <section id=\"header\" class=\"section\" style=\"letter-spacing: 2px;\">
-            <section class=\"container ";
-        // line 71
+\t\t\t\t<section id=\"header\" class=\"section\" style=\"letter-spacing: 2px;\">
+\t\t\t\t\t<section class=\"container ";
+        // line 99
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
         echo "\">
-                <nav class=\"navbar\">
+\t\t\t\t\t\t<nav class=\"navbar\">
 
-                    <section class=\"navbar-section logo\">
-                        ";
-        // line 75
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 75)->display($context);
-        // line 76
-        echo "                    </section>
+\t\t\t\t\t\t\t<section class=\"navbar-section logo\">
+\t\t\t\t\t\t\t\t";
+        // line 103
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 103)->display($context);
+        // line 104
+        echo "\t\t\t\t\t\t\t</section>
 
-                    <section class=\"navbar-section desktop-menu\">
+\t\t\t\t\t\t\t<section class=\"navbar-section desktop-menu\">
 
-                        <nav class=\"dropmenu animated\">
-                        ";
-        // line 81
+\t\t\t\t\t\t\t\t<nav class=\"dropmenu animated\">
+\t\t\t\t\t\t\t\t\t";
+        // line 109
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 84
-        echo "                        </nav>
+        // line 112
+        echo "\t\t\t\t\t\t\t\t</nav>
 
-                        ";
-        // line 86
+\t\t\t\t\t\t\t\t";
+        // line 114
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "login", []), "enabled", []) && $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", []), "username", []))) {
-            // line 87
-            echo "                            <span class=\"login-status-wrapper\"><i class=\"fa fa-user\"></i> ";
-            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 87)->display($context);
+            // line 115
+            echo "\t\t\t\t\t\t\t\t\t<span class=\"login-status-wrapper\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-user\"></i>
+\t\t\t\t\t\t\t\t\t\t";
+            // line 117
+            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 117)->display($context);
             echo "</span>
-                        ";
+\t\t\t\t\t\t\t\t";
         }
-        // line 89
+        // line 119
         echo "
-                    </section>
-                </nav>
-            </section>
-        </section>
-        <div class=\"mobile-menu\">
-            <div class=\"button_container\" id=\"toggle\">
-                <span class=\"top\"></span>
-                <span class=\"middle\"></span>
-                <span class=\"bottom\"></span>
-            </div>
-        </div>
-    ";
+\t\t\t\t\t\t\t</section>
+\t\t\t\t\t\t</nav>
+\t\t\t\t\t</section>
+\t\t\t\t</section>
+\t\t\t\t<div class=\"mobile-menu\">
+\t\t\t\t\t<div class=\"button_container\" id=\"toggle\">
+\t\t\t\t\t\t<span class=\"top\"></span>
+\t\t\t\t\t\t<span class=\"middle\"></span>
+\t\t\t\t\t\t<span class=\"bottom\"></span>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t";
     }
 
-    // line 81
+    // line 109
     public function block_header_navigation($context, array $blocks = [])
     {
-        // line 82
-        echo "                            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 82)->display($context);
-        // line 83
-        echo "                        ";
+        // line 110
+        echo "\t\t\t\t\t\t\t\t\t\t";
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 110)->display($context);
+        // line 111
+        echo "\t\t\t\t\t\t\t\t\t";
     }
 
-    // line 103
+    // line 133
     public function block_parallaxtoinclude($context, array $blocks = [])
     {
     }
 
-    // line 104
+    // line 134
     public function block_hero($context, array $blocks = [])
     {
     }
 
-    // line 107
+    // line 137
     public function block_body($context, array $blocks = [])
     {
-        // line 108
-        echo "            <section id=\"body-wrapper\" class=\"section\">
-                <section class=\"container ";
-        // line 109
+        // line 138
+        echo "\t\t\t\t\t<section id=\"body-wrapper\" class=\"section\">
+\t\t\t\t\t\t<section class=\"container ";
+        // line 139
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
         echo "\">
-                    ";
-        // line 110
+\t\t\t\t\t\t\t";
+        // line 140
         $this->displayBlock('messages', $context, $blocks);
-        // line 113
-        echo "                    ";
+        // line 143
+        echo "\t\t\t\t\t\t\t";
         $this->displayBlock("content_surround", $context, $blocks);
         echo "
-                </section>
-            </section>
-        ";
+\t\t\t\t\t\t</section>
+\t\t\t\t\t</section>
+\t\t\t\t";
     }
 
-    // line 110
+    // line 140
     public function block_messages($context, array $blocks = [])
     {
-        // line 111
-        echo "                        ";
+        // line 141
+        echo "\t\t\t\t\t\t\t\t";
         $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = null;
         try {
-            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 111);
+            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 141);
         } catch (LoaderError $e) {
             // ignore missing template
         }
         if ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) {
             $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4->display($context);
         }
-        // line 112
-        echo "                    ";
+        // line 142
+        echo "\t\t\t\t\t\t\t";
     }
 
-    // line 121
+    // line 151
     public function block_footer($context, array $blocks = [])
     {
-        // line 122
-        echo "        ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 122)->display($context);
-        // line 123
-        echo "    ";
+        // line 152
+        echo "\t\t\t";
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 152)->display($context);
+        // line 153
+        echo "\t\t";
     }
 
-    // line 125
+    // line 155
     public function block_mobile($context, array $blocks = [])
     {
-        // line 126
-        echo "    <div class=\"mobile-container\">
-        <div class=\"overlay\" id=\"overlay\">
-            <div class=\"mobile-logo\">
-                ";
-        // line 129
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 129)->display(twig_array_merge($context, ["mobile" => true]));
-        // line 130
-        echo "            </div>
-            <nav class=\"overlay-menu\">
-                ";
-        // line 132
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 132)->display(twig_array_merge($context, ["tree" => true]));
-        // line 133
-        echo "            </nav>
-        </div>
-    </div>
-    ";
+        // line 156
+        echo "\t\t\t<div class=\"mobile-container\">
+\t\t\t\t<div class=\"overlay\" id=\"overlay\">
+\t\t\t\t\t<div class=\"mobile-logo\">
+\t\t\t\t\t\t";
+        // line 159
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 159)->display(twig_array_merge($context, ["mobile" => true]));
+        // line 160
+        echo "\t\t\t\t\t</div>
+\t\t\t\t\t<nav class=\"overlay-menu\">
+\t\t\t\t\t\t";
+        // line 162
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 162)->display(twig_array_merge($context, ["tree" => true]));
+        // line 163
+        echo "\t\t\t\t\t</nav>
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t";
     }
 
-    // line 138
+    // line 168
     public function block_bottom($context, array $blocks = [])
     {
-        // line 139
-        echo "    ";
+        // line 169
+        echo "\t\t\t";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
-";
+\t\t";
     }
 
     public function getTemplateName()
@@ -459,7 +504,7 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
 
     public function getDebugInfo()
     {
-        return array (  444 => 139,  441 => 138,  434 => 133,  432 => 132,  428 => 130,  426 => 129,  421 => 126,  418 => 125,  414 => 123,  411 => 122,  408 => 121,  404 => 112,  393 => 111,  390 => 110,  381 => 113,  379 => 110,  375 => 109,  372 => 108,  369 => 107,  364 => 104,  359 => 103,  355 => 83,  352 => 82,  349 => 81,  333 => 89,  327 => 87,  325 => 86,  321 => 84,  319 => 81,  312 => 76,  310 => 75,  303 => 71,  292 => 63,  288 => 62,  284 => 61,  276 => 57,  270 => 54,  263 => 38,  258 => 37,  255 => 36,  245 => 33,  242 => 32,  239 => 31,  236 => 30,  232 => 27,  227 => 26,  224 => 25,  219 => 24,  214 => 23,  211 => 22,  208 => 21,  201 => 18,  198 => 17,  196 => 16,  184 => 12,  182 => 11,  179 => 10,  176 => 9,  164 => 141,  162 => 138,  159 => 137,  157 => 125,  154 => 124,  152 => 121,  146 => 117,  144 => 107,  140 => 105,  138 => 104,  134 => 103,  131 => 102,  129 => 57,  123 => 54,  116 => 50,  112 => 49,  108 => 48,  104 => 47,  100 => 46,  96 => 45,  89 => 40,  87 => 36,  84 => 35,  82 => 30,  79 => 29,  77 => 21,  74 => 20,  72 => 9,  66 => 6,  63 => 5,  61 => 3,  59 => 2,  57 => 1,  25 => 4,);
+        return array (  489 => 169,  486 => 168,  479 => 163,  477 => 162,  473 => 160,  471 => 159,  466 => 156,  463 => 155,  459 => 153,  456 => 152,  453 => 151,  449 => 142,  438 => 141,  435 => 140,  426 => 143,  424 => 140,  420 => 139,  417 => 138,  414 => 137,  409 => 134,  404 => 133,  400 => 111,  397 => 110,  394 => 109,  378 => 119,  373 => 117,  369 => 115,  367 => 114,  363 => 112,  361 => 109,  354 => 104,  352 => 103,  345 => 99,  335 => 92,  331 => 91,  325 => 87,  313 => 76,  308 => 73,  302 => 69,  299 => 68,  293 => 65,  286 => 48,  281 => 47,  278 => 46,  269 => 44,  266 => 43,  263 => 42,  260 => 41,  257 => 40,  254 => 39,  250 => 37,  247 => 36,  244 => 35,  241 => 34,  238 => 33,  235 => 32,  232 => 31,  229 => 30,  226 => 29,  223 => 28,  220 => 27,  217 => 26,  210 => 23,  207 => 22,  205 => 21,  197 => 17,  190 => 14,  188 => 13,  185 => 12,  183 => 11,  180 => 10,  177 => 9,  164 => 171,  162 => 168,  159 => 167,  157 => 155,  154 => 154,  152 => 151,  146 => 147,  144 => 137,  140 => 135,  137 => 134,  135 => 133,  132 => 132,  130 => 68,  124 => 65,  117 => 61,  113 => 60,  109 => 59,  105 => 58,  101 => 57,  97 => 56,  89 => 50,  87 => 46,  84 => 45,  82 => 39,  79 => 38,  77 => 26,  74 => 25,  72 => 9,  66 => 6,  63 => 5,  61 => 3,  59 => 2,  57 => 1,  25 => 4,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -478,142 +523,173 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
 {% use 'blocks/base.html.twig' %}
 <!DOCTYPE html>
 <html lang=\"{{ grav.language.getActive ?: grav.config.site.default_lang }}\">
-<head>
+\t<head>
 
-{% block head deferred %}
-    <meta charset=\"utf-8\" />
-    {% include 'partials/langswitcher.hreflang.html.twig' %}
-    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+\t\t{% block head deferred %}
+\t\t\t<meta charset=\"utf-8\"/>
+\t\t\t{% include 'partials/langswitcher.hreflang.html.twig' %}
+\t\t\t<title>
+\t\t\t\t{% if page.title %}
+\t\t\t\t\t{{ page.title|e('html') }}
+\t\t\t\t\t|
+\t\t\t\t{% endif %}
+\t\t\t\t{{ site.title|e('html') }}</title>
 
-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    {% include 'partials/metadata.html.twig' %}
-    
-    <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
-{% endblock head %}
+\t\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t\t{% include 'partials/metadata.html.twig' %}
 
-{% block stylesheets %}
-    {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
-    {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}{% endif %}
-    {% if theme_var('spectre.icons') %}{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
-    {% do assets.addCss('theme://css-compiled/theme'~compress) %}
-    {% do assets.addCss('theme://css/custom.css') %} 
-    {% do assets.addCss('theme://css/all.min.css') %}
-{% endblock %}
+\t\t\t<link rel=\"canonical\" href=\"{{ page.url(true, true) }}\"/>
+\t\t{% endblock head %}
 
-{% block javascripts %}
-    {% do assets.addJs('jquery', 101) %}
-    {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
-    {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
-{% endblock %}
+\t\t{% block stylesheets %}
+\t\t\t{% do assets.addCss('theme://css-compiled/spectre'~compress) %}
+\t\t\t{% if theme_var('spectre.exp') %}
+\t\t\t\t{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}
+\t\t\t{% endif %}
+\t\t\t{% if theme_var('spectre.icons') %}
+\t\t\t\t{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}
+\t\t\t{% endif %}
+\t\t\t{% do assets.addCss('theme://css-compiled/theme'~compress) %}
+\t\t\t{% do assets.addCss('theme://css/custom.css') %}
+\t\t\t{% do assets.addCss('theme://css/all.min.css') %}
+\t\t{% endblock %}
 
-{% block assets deferred %}
-    {{ assets.css()|raw }}
-    {{ assets.js()|raw }}
-{% endblock %}
+\t\t{% block javascripts %}
+\t\t\t{% do assets.addJs('jquery', 101) %}
+\t\t\t{% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
+\t\t\t{% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
+\t\t\t{% do assets.addJs('theme://js/darkmode.js', {group:'bottom'}) %}
+\t\t{% endblock %}
 
-<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
-<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
-<link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\"> 
-
-<link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://favicon/favicon.png') }}\" />
-<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"{{ url('theme://favicon/apple-touch-icon.png') }}\">
-<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"{{ url('theme://favicon/favicon-32x32.png') }}\">
-<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"{{ url('theme://favicon/favicon-16x16.png') }}\">
-<link rel=\"manifest\" href=\"{{ url('theme://favicon/site.webmanifest') }}\">
-<link rel=\"mask-icon\" href=\"{{ url('theme://favicon/safari-pinned-tab.svg') }}\" color=\"#5bbad5\">
-<meta name=\"msapplication-TileColor\" content=\"#da532c\">
-<meta name=\"theme-color\" content=\"#ffffff\">
-</head>
-<body id=\"top\" class=\"{% block body_classes %}{{ body_classes }}{% endblock %}\">
-
-    <div id=\"page-wrapper\">
-    {% block header %}                    
-
-        <section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
-
-            <section class=\"container {{ grid_size }} text-right\">            
-                <div class=\"text-right d-inline\" style=\"padding-right: 30px; border-right: 1px solid rgba(0, 0, 0, 0.5); color: #000;\"><i class=\"fab fa-whatsapp\" style=\"margin-right: 10px;\"></i><i class=\"fas fa-phone-alt\" style=\"margin-right: 10px;\"></i> {{ \"HEADER_CALL\"|t|e }}</div>
-                <div class=\"text-right d-inline\" style=\"padding-right: 20px; color: #fff;\">{% include 'partials/langswitcher.html.twig' %}</div>
-                <div class=\"text-right d-inline\" style=\"padding-right:20px; color:green\">fff</div>
-            </section>                        
-
-        </section>
+\t\t{% block assets deferred %}
+\t\t\t{{ assets.css()|raw }}
+\t\t\t{{ assets.js()|raw }}
+\t\t{% endblock %}
 
 
-        <section id=\"header\" class=\"section\" style=\"letter-spacing: 2px;\">
-            <section class=\"container {{ grid_size }}\">
-                <nav class=\"navbar\">
+\t\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+\t\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+\t\t<link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\">
 
-                    <section class=\"navbar-section logo\">
-                        {% include 'partials/logo.html.twig' %}
-                    </section>
+\t\t<link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://favicon/favicon.png') }}\"/>
+\t\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"{{ url('theme://favicon/apple-touch-icon.png') }}\">
+\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"{{ url('theme://favicon/favicon-32x32.png') }}\">
+\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"{{ url('theme://favicon/favicon-16x16.png') }}\">
+\t\t<link rel=\"manifest\" href=\"{{ url('theme://favicon/site.webmanifest') }}\">
+\t\t<link rel=\"mask-icon\" href=\"{{ url('theme://favicon/safari-pinned-tab.svg') }}\" color=\"#5bbad5\">
+\t\t<meta name=\"msapplication-TileColor\" content=\"#da532c\">
+\t\t<meta name=\"theme-color\" content=\"#ffffff\">
+\t</head>
+\t<body id=\"top\" class=\"{% block body_classes %}{{ body_classes }}{% endblock %}\">
 
-                    <section class=\"navbar-section desktop-menu\">
+\t\t<div id=\"page-wrapper\">
+\t\t\t{% block header %}
 
-                        <nav class=\"dropmenu animated\">
-                        {% block header_navigation %}
-                            {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
-                        </nav>
+\t\t\t\t<section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
 
-                        {% if config.plugins.login.enabled and grav.user.username %}
-                            <span class=\"login-status-wrapper\"><i class=\"fa fa-user\"></i> {% include 'partials/login-status.html.twig' %}</span>
-                        {% endif %}
+\t\t\t\t\t<section
+\t\t\t\t\t\tclass=\"container {{ grid_size }} text-right\">
 
-                    </section>
-                </nav>
-            </section>
-        </section>
-        <div class=\"mobile-menu\">
-            <div class=\"button_container\" id=\"toggle\">
-                <span class=\"top\"></span>
-                <span class=\"middle\"></span>
-                <span class=\"bottom\"></span>
-            </div>
-        </div>
-    {% endblock %}
+\t\t\t\t\t\t{#! Dark theme switcher #}
 
-    {% block parallaxtoinclude %}{% endblock %}  
-    {% block hero %}{% endblock %}
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"position:fixed;padding-right:20px;padding-left:20px;padding-top:10px;\">
+\t\t\t\t\t\t\t<input type=\"checkbox\" class=\"checkbox_mg\" id=\"chk\"/>
+\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\">
+\t\t\t\t\t\t\t\t<i class=\"fas fa-moon\"></i>
+\t\t\t\t\t\t\t\t<i class=\"fas fa-sun\"></i>
+\t\t\t\t\t\t\t\t<div class=\"ball_mg\"></div>
+\t\t\t\t\t\t\t</label>
+\t\t\t\t\t\t</div>
 
-        <section id=\"start\">
-        {% block body %}
-            <section id=\"body-wrapper\" class=\"section\">
-                <section class=\"container {{ grid_size }}\">
-                    {% block messages %}
-                        {% include 'partials/messages.html.twig' ignore missing %}
-                    {% endblock %}
-                    {{ block('content_surround') }}
-                </section>
-            </section>
-        {% endblock %}
-        </section>
+\t\t\t\t\t\t{#!#}
 
-    </div>
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"padding-right: 30px;padding-left:80px;border-right: 1px solid rgba(0, 0, 0, 0.5); color: #000;\">
+\t\t\t\t\t\t\t<i class=\"fab fa-whatsapp\" style=\"margin-right: 10px;\"></i>
+\t\t\t\t\t\t\t<i class=\"fas fa-phone-alt\" style=\"margin-right: 10px;\"></i>
+\t\t\t\t\t\t\t{{ \"HEADER_CALL\"|t|e }}</div>
+\t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"padding-right: 20px; color: #fff;\">{% include 'partials/langswitcher.html.twig' %}</div>
 
-    {% block footer %}
-        {% include 'partials/footer.html.twig' %}
-    {% endblock %}
+\t\t\t\t\t</section>
+\t\t\t\t</section>
 
-    {% block mobile %}
-    <div class=\"mobile-container\">
-        <div class=\"overlay\" id=\"overlay\">
-            <div class=\"mobile-logo\">
-                {% include 'partials/logo.html.twig' with {mobile: true} %}
-            </div>
-            <nav class=\"overlay-menu\">
-                {% include 'partials/navigation.html.twig' with {tree: true} %}
-            </nav>
-        </div>
-    </div>
-    {% endblock %}
 
-{% block bottom %}
-    {{ assets.js('bottom')|raw }}
-{% endblock %}
+\t\t\t\t<section id=\"header\" class=\"section\" style=\"letter-spacing: 2px;\">
+\t\t\t\t\t<section class=\"container {{ grid_size }}\">
+\t\t\t\t\t\t<nav class=\"navbar\">
 
-</body>
-</html>", "partials/base.html.twig", "C:\\xampp\\htdocs\\eu\\user\\themes\\quarkextended\\templates\\partials\\base.html.twig");
+\t\t\t\t\t\t\t<section class=\"navbar-section logo\">
+\t\t\t\t\t\t\t\t{% include 'partials/logo.html.twig' %}
+\t\t\t\t\t\t\t</section>
+
+\t\t\t\t\t\t\t<section class=\"navbar-section desktop-menu\">
+
+\t\t\t\t\t\t\t\t<nav class=\"dropmenu animated\">
+\t\t\t\t\t\t\t\t\t{% block header_navigation %}
+\t\t\t\t\t\t\t\t\t\t{% include 'partials/navigation.html.twig' %}
+\t\t\t\t\t\t\t\t\t{% endblock %}
+\t\t\t\t\t\t\t\t</nav>
+
+\t\t\t\t\t\t\t\t{% if config.plugins.login.enabled and grav.user.username %}
+\t\t\t\t\t\t\t\t\t<span class=\"login-status-wrapper\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-user\"></i>
+\t\t\t\t\t\t\t\t\t\t{% include 'partials/login-status.html.twig' %}</span>
+\t\t\t\t\t\t\t\t{% endif %}
+
+\t\t\t\t\t\t\t</section>
+\t\t\t\t\t\t</nav>
+\t\t\t\t\t</section>
+\t\t\t\t</section>
+\t\t\t\t<div class=\"mobile-menu\">
+\t\t\t\t\t<div class=\"button_container\" id=\"toggle\">
+\t\t\t\t\t\t<span class=\"top\"></span>
+\t\t\t\t\t\t<span class=\"middle\"></span>
+\t\t\t\t\t\t<span class=\"bottom\"></span>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t{% endblock %}
+
+\t\t\t{% block parallaxtoinclude %}{% endblock %}
+\t\t\t{% block hero %}{% endblock %}
+
+\t\t\t<section id=\"start\">
+\t\t\t\t{% block body %}
+\t\t\t\t\t<section id=\"body-wrapper\" class=\"section\">
+\t\t\t\t\t\t<section class=\"container {{ grid_size }}\">
+\t\t\t\t\t\t\t{% block messages %}
+\t\t\t\t\t\t\t\t{% include 'partials/messages.html.twig' ignore missing %}
+\t\t\t\t\t\t\t{% endblock %}
+\t\t\t\t\t\t\t{{ block('content_surround') }}
+\t\t\t\t\t\t</section>
+\t\t\t\t\t</section>
+\t\t\t\t{% endblock %}
+\t\t\t</section>
+
+\t\t</div>
+
+\t\t{% block footer %}
+\t\t\t{% include 'partials/footer.html.twig' %}
+\t\t{% endblock %}
+
+\t\t{% block mobile %}
+\t\t\t<div class=\"mobile-container\">
+\t\t\t\t<div class=\"overlay\" id=\"overlay\">
+\t\t\t\t\t<div class=\"mobile-logo\">
+\t\t\t\t\t\t{% include 'partials/logo.html.twig' with {mobile: true} %}
+\t\t\t\t\t</div>
+\t\t\t\t\t<nav class=\"overlay-menu\">
+\t\t\t\t\t\t{% include 'partials/navigation.html.twig' with {tree: true} %}
+\t\t\t\t\t</nav>
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t{% endblock %}
+
+\t\t{% block bottom %}
+\t\t\t{{ assets.js('bottom')|raw }}
+\t\t{% endblock %}
+
+\t</body>
+</html>
+", "partials/base.html.twig", "C:\\xampp\\htdocs\\eu\\user\\themes\\quarkextended\\templates\\partials\\base.html.twig");
     }
 }

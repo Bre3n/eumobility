@@ -18,18 +18,18 @@ Polska. Chorwacja. Szwecja
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/polska" ><img src="/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polska flaga"></a>
+        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polska flaga"></a>
         <br>
         <div class="p-centered"><strong>Erasmus+ w Polsce:<br>Katowice</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
         <div class="p-centered"><strong>Erasmus+ w Chorwacji:<br> Split</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/szwecja" ><img src="/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
         <div class="p-centered"><strong>Erasmus+ w Szwecji: <br>Malmo</strong></div>
     </div>
 

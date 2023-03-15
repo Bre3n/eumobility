@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 /*------------------------------------------------------------------
     [parallax]
 ------------------------------------------------------------------*/
@@ -49,6 +51,57 @@
     text-align: left;
 }
 
+/*----------------------------------------------------------------
+    [Dark mode switch [MG]]
+----------------------------------------------------------------*/
+
+.checkbox_mg {
+	opacity: 0;
+    float:right;
+    display:block;
+}
+
+.label_mg {
+	background-color: #111;
+	border-radius: 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: fixed;
+	height: 18px;
+	width: 35px;
+	transform: scale(1.5);
+}
+
+.label_mg .ball_mg {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 14px;
+	width: 14px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox_mg:checked + .label_mg .ball_mg {
+	transform: translateX(14.1px);
+}
+
+.fas {
+    margin-top:2px;
+}
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
 
 /*------------------------------------------------------------------
     [langswitcher]
@@ -106,6 +159,9 @@
 body {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+}
+body.dark{
+    background-color: #111;
 }
 
 h1,

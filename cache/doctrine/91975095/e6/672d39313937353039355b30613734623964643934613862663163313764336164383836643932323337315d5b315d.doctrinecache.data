@@ -1,0 +1,48 @@
+1679433270
+a:2:{s:7:"content";s:2360:"<p>Realizowane projekty Erasmus +</p>
+<p>Polska. Chorwacja. Szwecja </p>
+<p>===</p>
+<h3>Obecnie realizujemy projekty w:</h3>
+<div class="columns" style="margin-bottom: 20px;">
+
+    <div class="col-4 col-sm-12 p-10">
+        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polska flaga"></a>
+        <br>
+        <div class="p-centered"><strong>Erasmus+ w Polsce:<br>Katowice</strong></div>
+    </div>
+
+    <div class="col-4 col-sm-12 p-10">
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
+        <div class="p-centered"><strong>Erasmus+ w Chorwacji:<br> Split</strong></div>
+    </div>
+
+    <div class="col-4 col-sm-12 p-10">
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
+        <div class="p-centered"><strong>Erasmus+ w Szwecji: <br>Malmo</strong></div>
+    </div>
+
+</div>
+<h3>CZYM SIĘ ZAJMUJEMY?</h3>
+<p>W ramach programu Erasmus+ organizujemy kompleksową realizacje projektów w kilku krajach UE</p>
+<ul>
+<li>praktyki i staże zawodowe dla uczniów we wszystkich kierunkach kształcenia</li>
+<li>job shadowing dla nauczycieli</li>
+<li>kursy metodyczne</li>
+<li>kursy językowe</li>
+<li>zakwaterowanie z pełnym wyżywieniem</li>
+<li>wycieczki i program kulturowy</li>
+<li>transfery lotniskowe</li>
+</ul>
+<p><br></p>
+<div class="empty"> 
+    <i class="fa-regular fa-handshake" style="margin-right: 10px; color: #fa4bb1; font-size: 3rem;"></i><br><br>
+  <p>
+
+      Projekty dopasowane do Twoich potrzeb - zainteresowań:<br><br>
+      <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);">ERASMUS+ DLA SZKÓŁ</a> 
+
+      <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);">ERASMUS+ DLA PRACODAWCÓW</a>
+
+    </p>
+  <p class="empty-subtitle">Organizujemy także indywidualne projekty wg Twojego pomysłu.</p>
+</div>";s:12:"content_meta";N;}

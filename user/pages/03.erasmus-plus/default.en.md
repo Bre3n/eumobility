@@ -18,18 +18,18 @@ Poland, Croatia, Sweden
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/poland" ><img src="/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polish flag"></a>
+        <a  href="/en/erasmus-plus/poland" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polish flag"></a>
         <br>
         <div class="p-centered"><strong>Erasmus+ in Poland:<br>Katowice</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/croatia" ><img src="/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="croatia flag"></a>        <br>
+        <a  href="/en/erasmus-plus/croatia" ><img src="/eu/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="croatia flag"></a>        <br>
         <div class="p-centered"><strong>Erasmus+ in Croatia:<br> Split</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/sweden" ><img src="/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="sweden flag"></a> <br>
+        <a  href="/en/erasmus-plus/sweden" ><img src="/eu/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="sweden flag"></a> <br>
         <div class="p-centered"><strong>Erasmus+ in Sweden: <br>Malmo</strong></div>
     </div>
 

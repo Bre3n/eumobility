@@ -1,0 +1,22 @@
+1678828313
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:37:"kontakt/formularz-kontaktowy/thankyou";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:10:"Thank you!";s:8:"routable";b:1;s:12:"cache_enable";b:0;s:7:"visible";b:0;}s:11:"frontmatter";s:69:"title: 'Thank you!'
+routable: true
+cache_enable: false
+visible: false";s:8:"markdown";s:195:"The contact form has been sent.
+ 
+
+===
+
+<br> 
+
+Thank you for submitting the contact form.<br>
+We will contact you as soon as possible.
+
+
+<br>
+<br>
+## Go back to the [Home Page](/)
+
+<br>
+<br>
+<br>";}s:7:"storage";a:6:{s:3:"key";s:37:"kontakt/formularz-kontaktowy/thankyou";s:11:"storage_key";s:40:"04.kontakt/formularz-kontaktowy/thankyou";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1678788135;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1678788135;}}s:8:"checksum";s:32:"183521972ea9c336122901c90c994cc1";}}
