@@ -3,3 +3,4 @@
 *.data
 cache
 logs
+logs/popularity/daily.json
