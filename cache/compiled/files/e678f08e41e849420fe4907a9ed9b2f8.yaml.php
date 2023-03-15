@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/blueprints/config/site.yaml',
-    'modified' => 1678878604,
-    'size' => 4392,
+    'modified' => 1678787990,
+    'size' => 4268,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SITE',
         'form' => [

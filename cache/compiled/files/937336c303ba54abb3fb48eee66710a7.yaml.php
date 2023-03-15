@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/config/backups.yaml',
-    'modified' => 1678878604,
-    'size' => 386,
+    'modified' => 1678787960,
+    'size' => 371,
     'data' => [
         'purge' => [
             'trigger' => 'space',

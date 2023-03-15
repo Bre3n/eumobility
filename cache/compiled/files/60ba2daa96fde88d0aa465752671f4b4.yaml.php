@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/login/blueprints.yaml',
-    'modified' => 1678878607,
-    'size' => 15219,
+    'modified' => 1678788038,
+    'size' => 14757,
     'data' => [
         'name' => 'Login',
         'slug' => 'login',
