@@ -29,7 +29,7 @@ function modeDark() {
     console.log("Darkmode switched to dark")
     document.body.classList.add('darkMode');
     document.getElementById("sekcja").classList.add("darkMode");
-    document.getElementsById("header").classList.add("darkMode");
+    document.getElementById("header").classList.add("darkMode");
     document.getElementsByTagName("body")[0].classList.add("darkMode");
     document.getElementsByTagName("body")[0].classList.add("darkMode");
 }
@@ -39,7 +39,7 @@ function modeLight() {
     console.log("Darkmode switched to light")
     document.body.classList.remove('darkMode');
     document.getElementById("sekcja").classList.remove("darkMode");
-    document.getElementsById("header").classList.remove("darkMode");
+    document.getElementById("header").classList.remove("darkMode");
     document.getElementsByTagName("body")[0].classList.remove("darkMode");
     document.getElementsByTagName("body")[0].classList.remove("darkMode");
 }
