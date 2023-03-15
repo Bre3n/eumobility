@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/config/mime.yaml',
-    'modified' => 1678787960,
-    'size' => 35811,
+    'modified' => 1678878604,
+    'size' => 37797,
     'data' => [
         'types' => [
             123 => [

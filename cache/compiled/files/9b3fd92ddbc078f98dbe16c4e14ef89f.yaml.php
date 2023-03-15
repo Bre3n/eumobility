@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/markdown-notices/markdown-notices.yaml',
-    'modified' => 1678788123,
-    'size' => 99,
+    'modified' => 1678878608,
+    'size' => 103,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

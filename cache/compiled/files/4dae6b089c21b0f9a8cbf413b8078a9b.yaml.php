@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/localhost/config/themes/quarkextended.yaml',
-    'modified' => 1678788147,
-    'size' => 696,
+    'modified' => 1678878604,
+    'size' => 725,
     'data' => [
         'streams' => [
             'schemes' => [
