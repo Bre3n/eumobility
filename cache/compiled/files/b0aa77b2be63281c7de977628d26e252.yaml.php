@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/simple-cookie/blueprints.yaml',
-    'modified' => 1678788037,
-    'size' => 3160,
+    'modified' => 1678878608,
+    'size' => 3291,
     'data' => [
         'name' => 'Simple Cookie',
         'version' => '0.1.8',
