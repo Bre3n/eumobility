@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+:root{
+    --darkMode_main: #303A8D;
+    --darkMode_header: #444FA5;
+}
+
 /*------------------------------------------------------------------
     [parallax]
 ------------------------------------------------------------------*/
@@ -88,7 +93,7 @@
 }
 
 .checkbox_mg:checked + .label_mg .ball_mg {
-	transform: translateX(11.8px);
+	transform: translateX(12.1px);
 }
 
 .fas {
@@ -108,11 +113,16 @@
 ------------------------------------------------------------------*/
 
 body.darkMode{
-    background-color: #111;
+    background-color: var(--darkMode_main);
+    color:white;
 }
 
 section.darkMode {
-    background-color: #111;
+    background-color: var(--darkMode_main);
+}
+
+header.darkMode {
+    background-color: var(--darkMode_header);
 }
 
 /*------------------------------------------------------------------
