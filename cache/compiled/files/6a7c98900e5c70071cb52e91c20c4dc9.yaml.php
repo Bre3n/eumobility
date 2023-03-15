@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/flex-objects/flex-objects.yaml',
-    'modified' => 1678878607,
-    'size' => 330,
+    'modified' => 1678788019,
+    'size' => 316,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

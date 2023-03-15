@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/unitegallery/blueprints.yaml',
-    'modified' => 1678878608,
-    'size' => 2015,
+    'modified' => 1678788014,
+    'size' => 1938,
     'data' => [
         'name' => 'Unitegallery',
         'version' => '1.1.3',
