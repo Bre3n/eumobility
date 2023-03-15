@@ -1,34 +1,45 @@
-// Get user preference
-const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+const modeBtn = document.getElementById('chk');
 
-// Select the theme preference from localStorage
-const currentTheme = localStorage.getItem("theme") ? localStorage.getItem("theme") : null;
-
-// If the current theme in localStorage is "dark" or user prefer dark, apply it
-if (currentTheme == "dark" || (currentTheme == null && prefersDarkScheme)) {
-    document.body.classList.add("dark-mode");
+// [Mateusz Goinda]
+//Ustawianie motywu wg. plików lokalnych
+const mode = window.localStorage.getItem('mode');
+if (mode == 'dark') {
+    modeBtn.checked = true;
+    modeDark();
+} else if (mode == "light") {
+    modeBtn.checked = false;
+    modeLight();
 }
 
-// Get all elements with switch class
-const switches = document.querySelectorAll(".dark-mode-switcher");
-
-// Apply event function to each element
-for (var i = 0; i < switches.length; i++) {
-    switches[i].addEventListener('click', darkModeSwith);
-}
-
-function darkModeSwith(event) {
-    // Prevent href action
-    event.preventDefault();
-
-    // Toggle the .dark-theme class
-    document.body.classList.toggle("dark-mode");
-
-    // If the body contains the .dark-theme class...
-    // Then save the choice in localStorage
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
+// Przełączenie switcha chk/checkbox_mg
+modeBtn.onchange = (e) => {
+    if (modeBtn.checked === true) {
+        
+        window.localStorage.setItem('mode', 'dark');
+        modeDark();
     } else {
-        localStorage.setItem("theme", "light");
+        
+        window.localStorage.setItem('mode', 'light');
+        modeLight();
     }
+}
+
+// Zmiana motywu na ciemny
+function modeDark() {
+    console.log("Darkmode switched to dark")
+    document.body.classList.add('darkMode');
+    document.getElementById("sekcja").classList.add("darkMode");
+    document.getElementsByTagName("body")[0].classList.add("darkMode");
+    document.getElementsByTagName("body")[0].classList.add("darkMode");
+    document.getElementsByTagName("body")[0].classList.add("darkMode");
+}
+
+// Zmiana motywu na jasny (default)
+function modeLight() {
+    console.log("Darkmode switched to light")
+    document.body.classList.remove('darkMode');
+    document.getElementById("sekcja").classList.remove("darkMode");
+    document.getElementsByTagName("body")[0].classList.remove("darkMode");
+    document.getElementsByTagName("body")[0].classList.remove("darkMode");
+    document.getElementsByTagName("body")[0].classList.remove("darkMode");
 }

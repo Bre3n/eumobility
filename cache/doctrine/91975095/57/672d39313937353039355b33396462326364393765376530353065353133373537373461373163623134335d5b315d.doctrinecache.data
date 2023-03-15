@@ -1,21 +1,11 @@
----
-title: 'ERASMUS+ projects'
-media_order: 'erasmus-plus-zdjecie-grupowe.jpg,grupa-z-erasmus-plus.jpg,partnerzy-erasmus-plus.jpg,chorwacja.jpg,polska.jpg,szwecja.jpg,dla-pracodawcow-erasmus-plus.jpg,dla-szkol-erasmus-plus.jpg'
-menu: START
----
-
-Implement a project with **EU Mobility**. 
-
-Comprehensively, safely and at the highest level!
-
-===
-
+1679478823
+a:2:{s:7:"content";s:4208:"<p>Implement a project with <strong>EU Mobility</strong>. </p>
+<p>Comprehensively, safely and at the highest level!</p>
+<p>===</p>
 <p style="text-align: justify;">EU Mobility is an organization operating in several European countries (Poland, Sweden, Croatia). We specialize in implementation of Erasmus+ projects in the field of internships and apprenticeships for students, as well as language and methodological training for teachers. We work for the integration of students in the field of professional, personal and education development.</p>
- 
-
 <div class="container">
     <div class="columns" style="margin: 20px;">  
-        
+
         <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-color: #fff; border-style: solid; border-width: 1px;"> 
           <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);" title="INFORMATION FOR SCHOOLS Erasmus+"> INFORMATION<br> FOR SCHOOLS </a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">  It's easy<br> with us!</p>
@@ -31,9 +21,6 @@ Comprehensively, safely and at the highest level!
         </div>
     </div>
 </div>
-
-
-
 <div class="empty">
   <div class="empty-icon">
     <i class="icon icon-people"></i>
@@ -42,10 +29,8 @@ Comprehensively, safely and at the highest level!
   <p class="empty-title h5">Take advantage of our 12 years of experience.</p>
   <p class="empty-subtitle">Thanks to cooperation with us, almost 1,000 students and teachers go to different EU countries every year. All our activities are aimed at enabling young people and adults to benefit from the best foreign education and gain professional experience on the European labor market.</p>
 </div>
-
-## Learn about implemented ERASMUS+ projects
- 
- <div class="columns" style="margin-bottom: 20px;">
+<h2>Learn about implemented ERASMUS+ projects</h2>
+<div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
         <a  href="eu/en/erasmus-plus/poland" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polish flag"></a>
@@ -63,8 +48,4 @@ Comprehensively, safely and at the highest level!
         <div class="p-centered">Erasmus+ in Sweden: <br>Malmo</div>
     </div>
 
-</div>
- 
- 
- 
- 
+</div>";s:12:"content_meta";N;}

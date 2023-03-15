@@ -300,7 +300,7 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
     {
         // line 69
         echo "
-\t\t\t\t<section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
+\t\t\t\t<section class=\"section\" id=\"sekcja\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
 
 \t\t\t\t\t<section
 \t\t\t\t\t\tclass=\"container ";
@@ -586,7 +586,7 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
 \t\t<div id=\"page-wrapper\">
 \t\t\t{% block header %}
 
-\t\t\t\t<section class=\"section\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
+\t\t\t\t<section class=\"section\" id=\"sekcja\" style=\"position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;\">
 
 \t\t\t\t\t<section
 \t\t\t\t\t\tclass=\"container {{ grid_size }} text-right\">

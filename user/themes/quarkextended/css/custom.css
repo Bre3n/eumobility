@@ -52,7 +52,7 @@
 }
 
 /*----------------------------------------------------------------
-    [Dark mode switch [MG]]
+    [Dark mode switch [Mateusz Goinda]]
 ----------------------------------------------------------------*/
 
 .checkbox_mg {
@@ -70,8 +70,8 @@
 	justify-content: space-between;
 	padding: 5px;
 	position: fixed;
-	height: 18px;
-	width: 35px;
+	height: 15px;
+	width: 30px;
 	transform: scale(1.5);
 }
 
@@ -79,16 +79,16 @@
 	background-color: #fff;
 	border-radius: 50%;
 	position: absolute;
-	top: 2px;
+	top: 1.5px;
 	left: 2px;
-	height: 14px;
-	width: 14px;
+	height: 13px;
+	width: 13px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
 
 .checkbox_mg:checked + .label_mg .ball_mg {
-	transform: translateX(14.1px);
+	transform: translateX(11.8px);
 }
 
 .fas {
@@ -101,6 +101,18 @@
 
 .fa-sun {
 	color: #f39c12;
+}
+
+/*------------------------------------------------------------------
+    [DarkMode class] [Mateusz Goinda]
+------------------------------------------------------------------*/
+
+body.darkMode{
+    background-color: #111;
+}
+
+section.darkMode {
+    background-color: #111;
 }
 
 /*------------------------------------------------------------------
@@ -159,9 +171,6 @@
 body {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-}
-body.dark{
-    background-color: #111;
 }
 
 h1,
@@ -500,5 +509,29 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     }
     .m-top-50 {
         margin-top: 50px;
+    }
+
+    .label_mg {
+        padding: 5px;
+        height: 10px;
+        width: 16px;
+        transform: scale(1.5);
+    }
+    
+    .label_mg .ball_mg {
+        top: 2px;
+        left: 2px;
+        height: 6px;
+        width: 6px;
+        transform: translateX(0px);
+        transition: transform 0.2s linear;
+    }
+    
+    .checkbox_mg:checked + .label_mg .ball_mg {
+        transform: translateX(14.1px);
+    }
+    
+    .fas {
+        margin-top:2px;
     }
 }
