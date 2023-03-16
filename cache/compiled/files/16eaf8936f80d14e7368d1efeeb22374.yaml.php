@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/login/languages/zh.yaml',
-    'modified' => 1678788038,
-    'size' => 10367,
+    'modified' => 1678882514,
+    'size' => 10503,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => '用户名',

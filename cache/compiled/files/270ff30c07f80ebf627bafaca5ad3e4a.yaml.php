@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/languages/pt.yaml',
-    'modified' => 1678787960,
-    'size' => 3777,
+    'modified' => 1678882510,
+    'size' => 3924,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---

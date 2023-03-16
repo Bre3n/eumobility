@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/sitemap/sitemap.yaml',
-    'modified' => 1678787991,
-    'size' => 341,
+    'modified' => 1678882515,
+    'size' => 357,
     'data' => [
         'enabled' => true,
         'route' => '/sitemap',

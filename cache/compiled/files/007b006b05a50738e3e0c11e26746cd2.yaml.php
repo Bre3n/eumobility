@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/themes/quark/blueprints.yaml',
-    'modified' => 1678788138,
-    'size' => 4083,
+    'modified' => 1678882515,
+    'size' => 4259,
     'data' => [
         'name' => 'Quark',
         'slug' => 'quark',

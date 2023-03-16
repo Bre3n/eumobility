@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/error/languages.yaml',
-    'modified' => 1678788008,
-    'size' => 1549,
+    'modified' => 1678882514,
+    'size' => 1604,
     'data' => [
         'en' => [
             'PLUGIN_ERROR' => [

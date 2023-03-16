@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/breadcrumbs/languages.yaml',
-    'modified' => 1678788056,
-    'size' => 1603,
+    'modified' => 1678882513,
+    'size' => 1635,
     'data' => [
         'en' => [
             'PLUGIN_BREADCRUMBS' => [

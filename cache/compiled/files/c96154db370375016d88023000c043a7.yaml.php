@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/langswitcher/blueprints.yaml',
-    'modified' => 1678788067,
-    'size' => 2229,
+    'modified' => 1678882514,
+    'size' => 2302,
     'data' => [
         'name' => 'LangSwitcher',
         'version' => '3.1.0',

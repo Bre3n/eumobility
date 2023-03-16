@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/langswitcher/languages.yaml',
-    'modified' => 1678788067,
-    'size' => 2698,
+    'modified' => 1678882514,
+    'size' => 2733,
     'data' => [
         'en' => [
             'PLUGIN_LANGSWITCHER' => [

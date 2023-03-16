@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/sitemap/blueprints.yaml',
-    'modified' => 1678787991,
-    'size' => 5770,
+    'modified' => 1678882515,
+    'size' => 5996,
     'data' => [
         'name' => 'Sitemap',
         'type' => 'plugin',

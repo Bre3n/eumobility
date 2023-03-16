@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/eu.yaml',
-    'modified' => 1678788069,
-    'size' => 8229,
+    'modified' => 1678882512,
+    'size' => 8410,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Beta bertsio bat da hau! Produkzioan erabili ezazu zure ardurapean...',

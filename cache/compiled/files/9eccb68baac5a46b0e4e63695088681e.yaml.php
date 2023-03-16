@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/ru.yaml',
-    'modified' => 1678788068,
-    'size' => 98936,
+    'modified' => 1678882512,
+    'size' => 100039,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Пожалуйста, включите JavaScript в вашем браузере.',

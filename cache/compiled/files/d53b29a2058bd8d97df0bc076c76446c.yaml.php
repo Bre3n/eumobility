@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/simple-cookie/languages.yaml',
-    'modified' => 1678788037,
-    'size' => 585,
+    'modified' => 1678882515,
+    'size' => 600,
     'data' => [
         'en' => [
             'PLUGINS' => [

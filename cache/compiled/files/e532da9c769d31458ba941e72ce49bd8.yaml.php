@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/error/error.yaml',
-    'modified' => 1678788008,
-    'size' => 38,
+    'modified' => 1678882514,
+    'size' => 41,
     'data' => [
         'enabled' => true,
         'routes' => [
