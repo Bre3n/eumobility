@@ -15,14 +15,14 @@ Dla uczniów oraz na szkoleniach językowych i metodycznych dla nauczycieli.
 
 
 <br>
-<div class="empty" style="background: #6FA83F;color: #FFF;"><h3 style="margin: 1px; color: #FFF;font-weight: bolder;font-style: italic;font-size: xxx-large;">NASZA MISJA</h3><br>
-  <p class="empty-title h5">Chcemy inspirować do rozwoju zawodowego i interpersonalnego,<br> aby każdy mógł kreować swoją przyszłość, wykorzystywać potencjał, osiągać cele,<br> spełniać marzenia i zmieniać świat na lepszy.</p>
+<div class="empty" style="background-color: #144272;color:#fff;border-radius:10px;"><h3 style="margin: 1px; color: #FFF;font-weight: bolder;font-style: italic;font-size: xxx-large;">NASZA MISJA</h3><br>
+  <p class="empty-title h5" id="our_mission">Chcemy inspirować do rozwoju zawodowego i interpersonalnego,<br> aby każdy mógł kreować swoją przyszłość, wykorzystywać potencjał, osiągać cele,<br> spełniać marzenia i zmieniać świat na lepszy.</p>
 </div>
 <br><br>
 
 <div class="text-center"><h2>Kim jesteśmy</h2></div>
 
-<p style="text-align: justify; color: #50596c;">
+<p style="text-align: justify;">
 Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie młodzieży oraz dorosłym czerpania korzyści z najlepszej edukacji zagranicznej i zdobycia doświadczenia zawodowego na europejskim rynku pracy.  <br><br>Skupiamy się głównie na projektach Erasmus+ w dziedzinie staży zawodowych dla uczniów szkół średnich oraz na szkoleniach językowych i metodycznych dla nauczycieli. Działamy na rzecz integracji uczniów w dziedzinie rozwoju zawodowego, osobistego oraz edukacji. 
     
 
@@ -37,7 +37,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
 
 <div class="columns text-centered"  style="margin-bottom: 20px;">
     <div class="column col-6 col-md-12 text-center" style="padding: 40px;">
-        <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%"></p>
+        <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%;border-radius:20%;"></p>
         <p style="font-weight: bold;">Patrycja Pilarek<p>
         <p>CEO<br><br>            
         <a href="mailto:{{ 'patrycja@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                    
@@ -46,7 +46,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
     </div>
 
     <div class="column col-6 col-md-12 text-center" style="padding: 40px">        
-        <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%"></p>
+        <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%;border-radius:20%;"></p>
         <p style="font-weight: bold;">Karol Pilarek<p>
         <p>Executive Director<br><br>            
         <a href="mailto:{{ 'karolpilarek@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                    
@@ -57,7 +57,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
 <div class="columns">
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center" >
                         <h3><strong>EU Mobility Poland:</strong></h3><br>
-                        <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%;border-radius:20%;"></p>
                         <p style="font-weight: bold;">Karolina Maciejewska<p>        
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'karolina@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>
@@ -65,7 +65,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">                       
                          <h3><strong>EU Mobility Sverige:</strong></h3><br>	
-                         <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%"></p>
+                         <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%;border-radius:20%;"></p>
                           <p style="font-weight: bold;">Anush Poghosyan<p>
                           <p>Office Manager<br><br>
                           <a href="mailto:{{ 'projects@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                                        
@@ -73,7 +73,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">
 						<h3><strong>EU Mobility Croatia:</strong></h3><br>
-                        <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%;border-radius:20%;"></p>
                         <p style="font-weight: bold;">Katrina Vuka<p>
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'katarina@eumobility.pl'|safe_email }}">Napisz e-mail</a><br>                                    
