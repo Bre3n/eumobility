@@ -205,8 +205,7 @@ p.darkMode {
 }
 
 .langswitcher a:hover {
-    color: #B7066E;  
-    background: #38329e;
+    color: #38329e;  
     text-decoration: none;
 }
 
@@ -350,13 +349,25 @@ h1,
     -moz-box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.2);
 }
 
+.dropmenu ul li a{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 25px;
+}
+
 .dropmenu ul li a:hover,
 .dropmenu ul li a:focus,
 .dropmenu ul li a.active {
     color: #008CD3 !important;
-    border-radius: 25px;
+    transition-duration: 1s;
 }
-.dropmenu ul li a.active, .dropmenu ul li a:focus, .dropmenu ul li a:hover {
+
+.dropmenu ul li a:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #00aaffa5;
+}
+
+.dropmenu ul li a.active, .dropmenu ul li a:focus {
     color: rgb(255, 255, 255) !important;
     background-color: #008CD3;
 }
