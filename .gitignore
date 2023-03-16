@@ -1,6 +1,0 @@
-*.php
-*.json
-*.data
-cache
-logs
-logs/popularity/daily.json
