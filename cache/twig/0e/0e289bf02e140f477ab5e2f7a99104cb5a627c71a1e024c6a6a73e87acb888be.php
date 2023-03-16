@@ -313,10 +313,10 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
         echo "
 \t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"position:fixed;padding-right:20px;padding-left:20px;padding-top:10px;\">
 \t\t\t\t\t\t\t<input type=\"checkbox\" class=\"checkbox_mg\" id=\"chk\"/>
-\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\">
+\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\" id=\"label_mg_id\">
 \t\t\t\t\t\t\t\t<i class=\"fas fa-moon\"></i>
 \t\t\t\t\t\t\t\t<i class=\"fas fa-sun\"></i>
-\t\t\t\t\t\t\t\t<div class=\"ball_mg\"></div>
+\t\t\t\t\t\t\t\t<div class=\"ball_mg\" id=\"ball_mg_id\"></div>
 \t\t\t\t\t\t\t</label>
 \t\t\t\t\t\t</div>
 
@@ -595,10 +595,10 @@ class __TwigTemplate_a0010129b9d3c748b5c5f65b530a2156b84dca558ee1a2062a1e0d70bcd
 
 \t\t\t\t\t\t<div class=\"text-right d-inline\" style=\"position:fixed;padding-right:20px;padding-left:20px;padding-top:10px;\">
 \t\t\t\t\t\t\t<input type=\"checkbox\" class=\"checkbox_mg\" id=\"chk\"/>
-\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\">
+\t\t\t\t\t\t\t<label class=\"label_mg\" for=\"chk\" id=\"label_mg_id\">
 \t\t\t\t\t\t\t\t<i class=\"fas fa-moon\"></i>
 \t\t\t\t\t\t\t\t<i class=\"fas fa-sun\"></i>
-\t\t\t\t\t\t\t\t<div class=\"ball_mg\"></div>
+\t\t\t\t\t\t\t\t<div class=\"ball_mg\" id=\"ball_mg_id\"></div>
 \t\t\t\t\t\t\t</label>
 \t\t\t\t\t\t</div>
 
