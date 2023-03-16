@@ -29,9 +29,9 @@ function modeDark() {
     console.log("Darkmode switched to dark")
     document.body.classList.add('darkMode');
     document.getElementById("sekcja").classList.add("darkMode");
-    document.getElementById("header").classList.add("darkMode");
-    document.getElementsByTagName("body")[0].classList.add("darkMode");
-    document.getElementsByTagName("body")[0].classList.add("darkMode");
+    document.getElementById("label_mg_id").classList.add("darkMode");
+    document.getElementById("ball_mg_id").classList.add("darkMode");
+    //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
 // Zmiana motywu na jasny (default)
@@ -39,7 +39,7 @@ function modeLight() {
     console.log("Darkmode switched to light")
     document.body.classList.remove('darkMode');
     document.getElementById("sekcja").classList.remove("darkMode");
-    document.getElementById("header").classList.remove("darkMode");
-    document.getElementsByTagName("body")[0].classList.remove("darkMode");
-    document.getElementsByTagName("body")[0].classList.remove("darkMode");
+    document.getElementById("label_mg_id").classList.remove("darkMode");
+    document.getElementById("ball_mg_id").classList.remove("darkMode");
+    //document.getElementsByClassName("columns")[0].classList.remove("darkMode");
 }

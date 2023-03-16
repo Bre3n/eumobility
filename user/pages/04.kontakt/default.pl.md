@@ -24,7 +24,7 @@ Chcesz zrealizować projekt Erasmus+ z nami?
 <div class="container" style="padding-top: 0px; margin-top: -10px;">
     <div class="columns"> 
 
-            <div class="column col-6 col-md-12" style="padding: 1rem; background-color: #fcfcfc;">
+            <div class="column col-6 col-md-12" style="padding: 1rem; background-color:#5A65BB; color:black; border-radius:5%;">
             
                 <p id="formularz-kontaktowy" style="padding-top: 20px; font-size: smaller;"> Formularz kontaktowy: </p>
 
