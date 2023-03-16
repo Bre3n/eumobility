@@ -13,17 +13,17 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
 <p style="text-align: justify;">EU Mobility jest organizacją działającą w kilku krajach Europy (Polska, Szwecja, Chorwacja). Specjalizujemy się w realizacji projektów Erasmus+ w dziedzinie staży i praktyk zawodowych dla uczniów oraz na szkoleniach językowych i metodycznych dla nauczycieli. Działamy na rzecz integracji uczniów w dziedzinie rozwoju zawodowego, osobistego oraz edukacji. </p>
  
 
-<div class="container">
-    <div class="columns" style="margin: 20px;">  
+<div class="container" style="width:100%; margin:auto">
+    <div class="columns" style="width:100%; margin:auto"">  
         
-        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-color: #fff; border-style: solid; border-width: 1px;"> 
+        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 10px 0px 0px 10px;"> 
           <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);"> INFORMACJE <br> DLA  SZKÓŁ</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;"> Z nami<br> to proste!</p>
             <br><br>
             <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);">DOWIEDZ SIĘ WIĘCEJ</a>            
         </div> 
 
-        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px;  border-color: #fff; border-style: solid; border-width: 1px;"> 
+        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 0px 10px 10px 0px;"> 
             <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" title="#" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">INFORMACJE <br> DLA PRACODAWCÓW</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Chcesz przyjąć <br>na praktyki  zawodowe?</p>
             <br><br>
@@ -34,7 +34,7 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
 
 
 
-<div class="empty">
+<div class="empty" style="border-radius:10px;">
   <div class="empty-icon">
     <i class="icon icon-people"></i>
   </div>
@@ -48,19 +48,19 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polska flaga"></a>
+        <a  href="/pl/erasmus-plus/polska"> <img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px" class="img-fit-cover img-responsive" alt="polska flaga"></a>
         <br>
-        <div class="p-centered">Erasmus+ w Polsce:<br>Katowice</div>
+        <div class="p-centered" style="text-align:center">Erasmus+ w Polsce:<br>Katowice</div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
-        <div class="p-centered">Erasmus+ w Chorwacji:<br> Split</div>
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
+        <div class="p-centered" style="text-align:center">Erasmus+ w Chorwacji:<br> Split</div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
-        <div class="p-centered">Erasmus+ w Szwecji: <br>Malmo</div>
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
+        <div class="p-centered" style="text-align:center">Erasmus+ w Szwecji: <br> Malmö </div>
     </div>
 
 </div>
