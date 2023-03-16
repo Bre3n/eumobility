@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/fi.yaml',
-    'modified' => 1678788070,
-    'size' => 10739,
+    'modified' => 1678882512,
+    'size' => 10998,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Ota JavaScript käyttöön selaimessasi.',

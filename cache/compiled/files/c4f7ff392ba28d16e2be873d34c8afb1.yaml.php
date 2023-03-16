@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/themes/quark/languages.yaml',
-    'modified' => 1678788138,
-    'size' => 7256,
+    'modified' => 1678882515,
+    'size' => 7546,
     'data' => [
         'en' => [
             'THEME_QUARK' => [

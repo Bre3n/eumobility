@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/breadcrumbs/breadcrumbs.yaml',
-    'modified' => 1678788056,
-    'size' => 166,
+    'modified' => 1678882513,
+    'size' => 174,
     'data' => [
         'enabled' => true,
         'show_all' => true,

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/languages/eu.yaml',
-    'modified' => 1678787959,
-    'size' => 1336,
+    'modified' => 1678882510,
+    'size' => 1398,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '--- title: %1$s --- # Errorea: Baliogabeko Frontmatter Bidea: `%2$s` **%3$s** ``` %4$s ```',

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/taxonomylist/blueprints.yaml',
-    'modified' => 1678788056,
-    'size' => 948,
+    'modified' => 1678882515,
+    'size' => 987,
     'data' => [
         'name' => 'Taxonomy List',
         'type' => 'plugin',

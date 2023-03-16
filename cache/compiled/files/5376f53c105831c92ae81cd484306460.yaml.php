@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/mn.yaml',
-    'modified' => 1678788070,
-    'size' => 97882,
+    'modified' => 1678882512,
+    'size' => 98994,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Хөтөч дээрээ JavaScript-ийг идэвхжүүлнэ үү.',
