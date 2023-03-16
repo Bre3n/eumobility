@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/hu.yaml',
-    'modified' => 1678788069,
-    'size' => 46615,
+    'modified' => 1678958166,
+    'size' => 47392,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Kérjük, engedélyezd a JavaScriptet a böngésződben.',

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/config/security.yaml',
-    'modified' => 1678787960,
-    'size' => 659,
+    'modified' => 1678958166,
+    'size' => 698,
     'data' => [
         'xss_whitelist' => [
             0 => 'admin.super'

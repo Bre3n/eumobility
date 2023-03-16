@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/ku.yaml',
-    'modified' => 1678788070,
-    'size' => 5538,
+    'modified' => 1678958166,
+    'size' => 5659,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'ئەمە وەشانی تاقیكاریە (Beta)! بۆ كاری پێشكەوتوو لەسەر ئەركی خۆت بەكاری بهێنە...',

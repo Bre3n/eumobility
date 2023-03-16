@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://quarkextended/quarkextended.yaml',
-    'modified' => 1678788136,
-    'size' => 383,
+    'modified' => 1678958167,
+    'size' => 404,
     'data' => [
         'streams' => [
             'schemes' => [

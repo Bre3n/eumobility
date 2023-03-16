@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/pagination/blueprints.yaml',
-    'modified' => 1678788124,
-    'size' => 1269,
+    'modified' => 1678958167,
+    'size' => 1321,
     'data' => [
         'name' => 'Pagination',
         'slug' => 'pagination',

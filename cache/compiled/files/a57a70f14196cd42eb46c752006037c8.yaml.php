@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/config/site.yaml',
-    'modified' => 1678788125,
-    'size' => 282,
+    'modified' => 1678958166,
+    'size' => 301,
     'data' => [
         'title' => 'EU Mobility',
         'default_lang' => 'pl',

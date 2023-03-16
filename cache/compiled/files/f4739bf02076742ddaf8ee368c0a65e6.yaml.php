@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/blueprints/config/media.yaml',
-    'modified' => 1678788098,
-    'size' => 750,
+    'modified' => 1678958166,
+    'size' => 786,
     'data' => [
         'title' => 'PLUGIN_ADMIN.MEDIA',
         'form' => [

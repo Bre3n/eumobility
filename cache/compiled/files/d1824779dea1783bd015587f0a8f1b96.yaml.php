@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/email/languages.yaml',
-    'modified' => 1678787992,
-    'size' => 10336,
+    'modified' => 1678958167,
+    'size' => 10501,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/si.yaml',
-    'modified' => 1678788069,
-    'size' => 4365,
+    'modified' => 1678958166,
+    'size' => 4463,
     'data' => [
         'PLUGIN_ADMIN' => [
             'LOGIN_BTN' => 'පිවිසෙන්න',

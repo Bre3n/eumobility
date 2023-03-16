@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/admin/languages/el.yaml',
-    'modified' => 1678788068,
-    'size' => 68298,
+    'modified' => 1678958166,
+    'size' => 69008,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Αυτή είναι δοκιμαστική έκδοση (beta)! Χρησιμοποιήστε την στην παραγωγή με δική σας ευθύνη...',

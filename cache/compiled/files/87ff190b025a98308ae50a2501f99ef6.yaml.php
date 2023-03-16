@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/markdown-notices/languages.yaml',
-    'modified' => 1678788123,
-    'size' => 1557,
+    'modified' => 1678958167,
+    'size' => 1586,
     'data' => [
         'en' => [
             'PLUGIN_MARKDOWN_NOTICES' => [

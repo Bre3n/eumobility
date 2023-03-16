@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/breadcrumbs/blueprints.yaml',
-    'modified' => 1678788057,
-    'size' => 2333,
+    'modified' => 1678958167,
+    'size' => 2432,
     'data' => [
         'name' => 'Breadcrumbs',
         'type' => 'plugin',

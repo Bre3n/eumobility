@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/form/languages.yaml',
-    'modified' => 1678788058,
-    'size' => 62711,
+    'modified' => 1678958167,
+    'size' => 63625,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [

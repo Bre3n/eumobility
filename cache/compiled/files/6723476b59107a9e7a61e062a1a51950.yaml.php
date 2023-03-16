@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/plugins/unitegallery/unitegallery.yaml',
-    'modified' => 1678788014,
-    'size' => 121,
+    'modified' => 1678958167,
+    'size' => 127,
     'data' => [
         'enabled' => true,
         'assets_in_meta' => true,

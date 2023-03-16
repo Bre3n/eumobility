@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/user/themes/quarkextended/languages.yaml',
-    'modified' => 1678788136,
+    'modified' => 1678958167,
     'size' => 564,
     'data' => [
         'pl' => [

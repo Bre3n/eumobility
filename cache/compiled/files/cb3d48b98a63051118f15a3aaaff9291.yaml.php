@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/eu/system/config/system.yaml',
-    'modified' => 1678787960,
-    'size' => 18092,
+    'modified' => 1678958166,
+    'size' => 18322,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
