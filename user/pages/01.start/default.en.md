@@ -17,14 +17,14 @@ Comprehensively, safely and at the highest level!
     <div class="columns" style="width:100%; margin:auto">  
         
         <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 10px 0px 0px 10px;"> 
-          <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" style="color: #fff; auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);" title="INFORMATION FOR SCHOOLS Erasmus+"> INFORMATION<br> FOR SCHOOLS </a></h4>
+          <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" style="color: #fff; auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;" title="INFORMATION FOR SCHOOLS Erasmus+"> INFORMATION<br> FOR SCHOOLS </a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">  It's easy<br> with us!</p>
             <br><br>
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);">LEARN MORE</a>            
         </div> 
 
         <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px;  border-radius: 0px 10px 10px 0px;"> 
-            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" title="INFORMATION FOR EMPLOYERS Erasmus+" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">INFORMATION <br>FOR EMPLOYERS</a></h4>
+            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" title="INFORMATION FOR EMPLOYERS Erasmus+" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMATION <br>FOR EMPLOYERS</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Do you want to<br> accept an intern?</p>
             <br><br>
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF; box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);">LEARN MORE</a>
