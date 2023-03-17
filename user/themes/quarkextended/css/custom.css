@@ -137,12 +137,14 @@ img:hover {
 }
 
 .fa-moon {
-	color: #f1c40f;
+	color: rgba(0, 0, 0, 0);
+    transition-duration: 500ms;
 }
 
 .fa-sun {
     margin-left:2px;
 	color: #f39c12;
+    transition-duration: 500ms;
 }
 
 /*------------------------------------------------------------------
@@ -181,8 +183,15 @@ p.darkMode{
 
 
 .fa-sun.darkMode{
-    color:rgba(0, 0, 0, 0)
+    color:rgba(0, 0, 0, 0);
+    transition-duration: 500ms;
 }
+
+.fa-moon.darkMode{
+    color: #f1c40f;
+    transition-duration: 500ms;
+}
+
 
 /*------------------------------------------------------------------
     [langswitcher]
