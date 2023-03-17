@@ -28,13 +28,8 @@ Comprehensively, safely and at the highest level!
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">LEARN MORE</a>            
         </div> 
 
-<<<<<<< HEAD
-        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px;  border-radius: 0px 10px 10px 0px; box-shadow: 5px 0px 47px -1px rgba(0,0,0,0.33);"> 
-            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" title="INFORMATION FOR EMPLOYERS Erasmus+" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">INFORMATION <br>FOR EMPLOYERS</a></h4>
-=======
         <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px;  border-radius: 0px 10px 10px 0px;"> 
             <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" title="INFORMATION FOR EMPLOYERS Erasmus+" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMATION <br>FOR EMPLOYERS</a></h4>
->>>>>>> 0b313009e9e1f7f6aacbe97c10e0ac74f0827955
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Do you want to<br> accept an intern?</p>
             <br><br>
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF;">LEARN MORE</a>
