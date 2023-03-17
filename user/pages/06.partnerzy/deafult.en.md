@@ -16,11 +16,13 @@ menu: PARTNERS
 placeholder
 
 ===
-<div class = "partners">
-    <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-    <p style="text-align:center"> Partner name 1 </p> <br>
-    <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-    <p style="text-align:center"> Partner name 1 </p> <br>
-    <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-    <p style="text-align:center"> Partner name 1 </p> <br>
+<div id="partnersBox">
+    <div class = "partners">
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
+        <p style="text-align:center"> Partner name 1 </p> <br>
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
+        <p style="text-align:center"> Partner name 2 </p> <br>
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
+        <p style="text-align:center"> Partner name 3 </p> <br>
+    </div>
 </div>

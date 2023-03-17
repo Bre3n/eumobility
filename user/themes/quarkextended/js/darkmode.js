@@ -33,6 +33,13 @@ function modeDark() {
     document.getElementById("ball_mg_id").classList.add("darkMode");
     document.getElementById("sun").classList.add("darkMode");
     document.getElementById("moon").classList.add("darkMode");
+    document.getElementById("emptyDark").classList.add("darkMode");
+    try{
+        document.getElementById("partnersBox").classList.add("darkMode");
+    }catch{
+        console.log("");
+    }
+    
     //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
@@ -45,5 +52,11 @@ function modeLight() {
     document.getElementById("ball_mg_id").classList.remove("darkMode");
     document.getElementById("sun").classList.remove("darkMode");
     document.getElementById("moon").classList.remove("darkMode");
+    document.getElementById("emptyDark").classList.remove("darkMode");
+    try{
+        document.getElementById("partnersBox").classList.remove("darkMode");
+    }catch{
+        console.log("");
+    }
     //document.getElementsByClassName("columns")[0].classList.remove("darkMode");
 }
