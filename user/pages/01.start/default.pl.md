@@ -16,14 +16,14 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
 <div class="container" style="width:100%; margin:auto">
     <div class="columns" style="width:100%; margin:auto"">  
         
-        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 10px 0px 0px 10px;"> 
+        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 10px 0px 0px 10px; box-shadow: -5px 0px 22px 0px rgba(0,0,0,0.27);"> 
           <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;"> INFORMACJE <br> DLA  SZKÓŁ</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;"> Z nami<br> to proste!</p>
             <br><br>
             <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF;">DOWIEDZ SIĘ WIĘCEJ</a>            
         </div> 
 
-        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 0px 10px 10px 0px;"> 
+        <div class="column col-6 col-md-12 text-center" style="background-image: url(/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg); background-size: cover; background-position: center; padding: 25px; border-radius: 0px 10px 10px 0px; box-shadow: 5px 0px 22px 0px rgba(0,0,0,0.27);"> 
             <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" title="#" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMACJE <br> DLA PRACODAWCÓW</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Chcesz przyjąć <br>na praktyki  zawodowe?</p>
             <br><br>
