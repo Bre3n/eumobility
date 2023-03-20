@@ -14,7 +14,7 @@ We specialize in the implementation of Erasmus+ projects in the field of interns
 
 
 <br>
-<div class="empty" style="background-color: #144272;color: #FFF;"><h3 style="margin: 1px; color: #FFF;font-weight: bolder;font-style: italic;font-size: xxx-large;">OUR MISSION</h3><br>
+<div class="empty" id="emptyDark" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"><h3 style="margin: 1px; color: #e40186;font-weight: bolder;font-style: italic;font-size: xxx-large;">OUR MISSION</h3><br>
   <p class="empty-title h5" id="our_mission">We want to inspire professional and interpersonal development,
 	so that everyone can create their future, use their potential, achieve goals,
 	make dreams come true and change the world for the better.</p>
@@ -103,7 +103,7 @@ We are a professional educational center aimed at enabling young people and adul
 </div>
  
  
-<div class="empty"> 
+<div class="empty" id="emptyDarkSecond" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"> 
     <i class="fa-regular fa-thumbs-up" style="margin-right: 10px; color: #fa4bb1; font-size: 3rem;"></i><br><br>
   <p class="empty-title h5">JIf you are looking for an Erasmus partner for your school, we are the perfect choice!
       
