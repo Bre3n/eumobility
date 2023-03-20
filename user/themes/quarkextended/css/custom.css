@@ -352,9 +352,10 @@ h1,
 .btn:hover,
 .button:focus,
 .button:hover {
-    background: #fa4bb1;
+    background: #C50978;
     color: rgb(255, 255, 255);
     border-color: #FFF;
+    transition-duration: 2s;
 }
 
 .btn-transp {
@@ -371,7 +372,7 @@ h1,
 .btn-purp {
     color: #FFF;
     border-color: #FFF;
-    background-color: #C50978;
+    background-color: #fa4bb1;
     box-shadow: none;
 }
 

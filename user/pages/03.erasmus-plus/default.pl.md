@@ -18,18 +18,18 @@ Polska. Chorwacja. Szwecja
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" class="img-fit-cover img-responsive" alt="polska flaga"></a>
+        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive" alt="polska flaga"></a>
         <br>
         <div class="p-centered"><strong>Erasmus+ w Polsce:<br>Katowice</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive" alt="chorwacja flaga"></a>        <br>
         <div class="p-centered"><strong>Erasmus+ w Chorwacji:<br> Split</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive" alt="szwecja flaga"></a> <br>
         <div class="p-centered"><strong>Erasmus+ w Szwecji: <br>Malmo</strong></div>
     </div>
 
@@ -52,7 +52,7 @@ W ramach programu Erasmus+ organizujemy kompleksową realizacje projektów w kil
 
 <br>
 
-<div class="empty"> 
+<div class="empty" id="emptyDark" style="border-radius:10px; box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"> 
     <i class="fa-regular fa-handshake" style="margin-right: 10px; color: #fa4bb1; font-size: 3rem;"></i><br><br>
   <p>
       

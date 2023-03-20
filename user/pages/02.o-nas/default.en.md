@@ -14,7 +14,7 @@ We specialize in the implementation of Erasmus+ projects in the field of interns
 
 
 <br>
-<div class="empty" id="emptyDark" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"><h3 style="margin: 1px; color: #e40186;font-weight: bolder;font-style: italic;font-size: xxx-large;">OUR MISSION</h3><br>
+<div class="empty" id="emptyDark" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"><h3 style="margin: 1px; color: #e40186;font-weight: bolder;font-size: xxx-large;">OUR MISSION</h3><br>
   <p class="empty-title h5" id="our_mission">We want to inspire professional and interpersonal development,
 	so that everyone can create their future, use their potential, achieve goals,
 	make dreams come true and change the world for the better.</p>
