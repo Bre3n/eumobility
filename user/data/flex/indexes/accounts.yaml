@@ -1,14 +1,14 @@
 version: '1.2'
-timestamp: 1678827624
+timestamp: 1679304114
 count: 2
 index:
   admin:
     storage_key: admin
-    storage_timestamp: 1678788146
+    storage_timestamp: 1678970779
     key: admin
     email: tomaszdg@gmail.com
   admin2:
     storage_key: admin2
-    storage_timestamp: 1678788146
+    storage_timestamp: 1678970779
     key: admin2
     email: karolpilarek@eumobility.pl

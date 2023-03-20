@@ -1,5 +1,5 @@
 const modeBtn = document.getElementById('chk');
-
+abc = 1;
 // [Mateusz Goinda]
 //Ustawianie motywu wg. plików lokalnych
 const mode = window.localStorage.getItem('mode');
@@ -13,15 +13,20 @@ if (mode == 'dark') {
 
 // Przełączenie switcha chk/checkbox_mg
 modeBtn.onchange = (e) => {
+    abc = abc + 1;
+    if (abc == 10) {
+        console.log("JEBAC TOMKA");
+    }
     if (modeBtn.checked === true) {
-        
+
         window.localStorage.setItem('mode', 'dark');
         modeDark();
     } else {
-        
+
         window.localStorage.setItem('mode', 'light');
         modeLight();
     }
+
 }
 
 // Zmiana motywu na ciemny
@@ -33,17 +38,17 @@ function modeDark() {
     document.getElementById("ball_mg_id").classList.add("darkMode");
     document.getElementById("sun").classList.add("darkMode");
     document.getElementById("moon").classList.add("darkMode");
-    try{
+    try {
         document.getElementById("partnersBox").classList.add("darkMode");
-    }catch{
-        console.log("");
+    } catch {
+        //pass
     }
-    try{
+    try {
         document.getElementById("emptyDark").classList.add("darkMode");
-    }catch{
-        console.log("");
+    } catch {
+        //pass
     }
-    
+
     //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
@@ -56,15 +61,15 @@ function modeLight() {
     document.getElementById("ball_mg_id").classList.remove("darkMode");
     document.getElementById("sun").classList.remove("darkMode");
     document.getElementById("moon").classList.remove("darkMode");
-    try{
+    try {
         document.getElementById("partnersBox").classList.remove("darkMode");
-    }catch{
-        console.log("");
+    } catch {
+        //pass
     }
-    try{
+    try {
         document.getElementById("emptyDark").classList.remove("darkMode");
-    }catch{
-        console.log("");
+    } catch {
+        //pass
     }
     //document.getElementsByClassName("columns")[0].classList.remove("darkMode");
 }

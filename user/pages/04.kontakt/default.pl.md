@@ -28,22 +28,7 @@ Chcesz zrealizować projekt Erasmus+ z nami?
             
                 <p id="formularz-kontaktowy" style="padding-top: 20px; font-size: smaller;"> Formularz kontaktowy: </p>
 
-<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-
-<form action="http://localhost/eu/pl/kontakt/formularz-kontaktowy/submitscript.php" target="dummyframe">
-    
-<label for="fname">First Name</label><br>
-<input type="text" id="fname" name="name" placeholder="Your name..">
-<br>
-<label for="lname">Last Name</label><br>
-<input type="text" id="lname" name="email" placeholder="Your last name..">
-<br>
-<label for="subject">Message</label><br>
-<textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
-<br>
-<input type="submit" value="Submit">
-
-</form>
+                {% include "forms/form.html.twig" with {form: forms('kontakt-form')} %}
 
                 <p style="font-size: small;">
                 ( * ) pola obowiązkowe<br><br>

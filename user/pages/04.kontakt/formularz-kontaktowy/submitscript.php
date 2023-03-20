@@ -1,12 +1,11 @@
 <?php
-if(!isset($_POST['submit'])){
-    echo "ASd";
-}
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
 
-$email_from = "EUMoblity contact";
+  $to = "mwgoinda@gmail.com";
 
-echo mail("mwgoinda@gmail.com","EUMobility",$message)?"OK":"ERROR";
-?>
+  $headers = "From: $email_from \r\n";
+
+  $headers .= "Reply-To: $visitor_email \r\n";
+
+  mail($to,$email_subject,$email_body,$headers);
+
+ ?>
