@@ -8,6 +8,8 @@
     transform: translateY(-50%);
     margin-left: 1rem !important;
     display: inline-block;
+    border:2px solid;
+    border-color:white;
 }
 
 .langswitcher li {
@@ -19,4 +21,6 @@
 .langswitcher .active {
     font-weight: bold;
     text-decoration: underline;
+    border:2px solid;
+    border-color:white;
 }
