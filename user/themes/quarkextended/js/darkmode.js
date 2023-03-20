@@ -48,7 +48,6 @@ function modeDark() {
     } catch {
         //pass
     }
-
     //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
@@ -70,6 +69,11 @@ function modeLight() {
         document.getElementById("emptyDark").classList.remove("darkMode");
     } catch {
         //pass
+    }
+    try{
+        document.getElementById("emptyDarkSecond").classList.remove("darkMode");
+    }catch{
+        console.log("");
     }
     //document.getElementsByClassName("columns")[0].classList.remove("darkMode");
 }

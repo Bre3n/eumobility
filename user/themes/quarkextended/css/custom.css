@@ -213,6 +213,11 @@ section.darkMode {
     color: white;
 }
 
+#emptyDarkSecond.darkMode{
+    background-color: var(--darkMode_second);
+    color: white;
+}
+
 #partnersBox.darkMode{
     background-color: var(--darkMode_second);
 }
@@ -244,7 +249,6 @@ p.darkMode {
     color: #f1c40f;
     transition-duration: 500ms;
 }
-
 
 /*------------------------------------------------------------------
     [langswitcher]
