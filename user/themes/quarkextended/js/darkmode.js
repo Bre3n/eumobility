@@ -48,6 +48,11 @@ function modeDark() {
     } catch {
         //pass
     }
+    try{
+        document.getElementById("emptyDarkSecond").classList.add("darkMode");
+    }catch{
+        //pass
+    }
     //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
@@ -73,7 +78,7 @@ function modeLight() {
     try{
         document.getElementById("emptyDarkSecond").classList.remove("darkMode");
     }catch{
-        console.log("");
+        //pass
     }
     //document.getElementsByClassName("columns")[0].classList.remove("darkMode");
 }
