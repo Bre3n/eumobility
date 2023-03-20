@@ -15,7 +15,7 @@ Dla uczniów oraz na szkoleniach językowych i metodycznych dla nauczycieli.
 
 
 <br>
-<div class="empty" id="emptyDark" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"><h3 style="margin: 1px; color: #e40186;font-weight: bolder;font-style: italic;font-size: xxx-large;">NASZA MISJA</h3><br>
+<div class="empty" id="emptyDark" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"><h3 style="margin: 1px; color: #e40186;font-weight: bolder;font-size: xxx-large;">NASZA MISJA</h3><br>
   <p class="empty-title h5" id="our_mission">Chcemy inspirować do rozwoju zawodowego i interpersonalnego,<br> aby każdy mógł kreować swoją przyszłość, wykorzystywać potencjał, osiągać cele,<br> spełniać marzenia i zmieniać świat na lepszy.</p>
 </div>
 <br><br>
