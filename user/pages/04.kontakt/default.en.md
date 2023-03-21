@@ -3,6 +3,7 @@ title: Contact
 process:
     markdown: true
     twig: true
+slug: contact
 media_order: malmo-widok.jpg
 never_cache_twig: true
 cache_enable: false
@@ -10,7 +11,6 @@ twig_first: false
 taxonomy:
     tag:
         - to_menu_footer_informacje
-slug: contact
 menu: CONTACT
 ---
 

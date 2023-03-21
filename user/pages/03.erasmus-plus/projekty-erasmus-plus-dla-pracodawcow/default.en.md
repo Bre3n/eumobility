@@ -1,7 +1,7 @@
 ---
 title: 'Erasmus+ projects for employers'
-media_order: 'people2.png,people.jpg'
 slug: erasmus-projects-for-employers
+media_order: 'people2.png,people.jpg'
 ---
 
 Erasmus+ with **EU Mobility**

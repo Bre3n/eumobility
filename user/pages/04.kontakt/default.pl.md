@@ -3,6 +3,7 @@ title: Kontakt
 process:
     markdown: true
     twig: true
+slug: contact
 media_order: malmo-widok.jpg
 never_cache_twig: true
 cache_enable: false

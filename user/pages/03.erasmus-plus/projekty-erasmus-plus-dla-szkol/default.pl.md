@@ -1,6 +1,7 @@
 ---
 title: 'Projekty Erasmus+ dla szkół'
 media_order: 'people2.png,people.jpg'
+slug: erasmus-projects-for-schools
 ---
 
 Erasmus+ dla szkół

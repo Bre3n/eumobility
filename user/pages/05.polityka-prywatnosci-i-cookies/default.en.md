@@ -1,9 +1,9 @@
 ---
 title: 'Privacy and cookies'
+slug: privacy-and-cookies
 sitemap:
     priority: 0.1
 visible: false
-slug: privacy-and-cookies
 content:
     items:
         - '@self.children'

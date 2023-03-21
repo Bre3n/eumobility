@@ -1,5 +1,6 @@
 ---
 title: 'Polityka Prywatności i Cookies'
+slug: privacy-and-cookies
 sitemap:
     priority: 0.1
     ignore: true

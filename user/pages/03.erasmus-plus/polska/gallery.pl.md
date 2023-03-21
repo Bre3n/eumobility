@@ -1,5 +1,6 @@
 ---
 title: 'Erasmus+ w Polsce'
+slug: poland
 metadata:
     description: 'Erasmus + w Polsce, zdjęcia z wyjazdów'
 unitegallery:

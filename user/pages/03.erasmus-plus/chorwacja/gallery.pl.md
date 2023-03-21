@@ -1,5 +1,6 @@
 ---
 title: 'Erasmus+ w Chorwacji'
+slug: croatia
 metadata:
     description: 'Erasmus + w Chorwacji, zdjęcia z wyjazdów'
 unitegallery:

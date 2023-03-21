@@ -1,5 +1,6 @@
 ---
 title: 'Erasmus + Poland'
+slug: poland
 media_order: '17.jpg,14.jpg,7.jpg,3.jpg'
 metadata:
     description: 'Erasmus + w Polsce, zdjęcia z wyjazdów'
@@ -11,7 +12,6 @@ gallery_theme: default
 gallery_div_id: unite-gallery
 thumb_width: 600
 thumb_height: 600
-slug: poland
 taxonomy:
     tag:
         - to_menu_footer_erasmus

@@ -41,6 +41,7 @@
 			{% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
 			{% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
 			{% do assets.addJs('theme://js/darkmode.js', {group:'bottom'}) %}
+			{% do assets.addJs('theme://js/language.js', {group:'bottom'}) %}
 		{% endblock %}
 
 		{% block assets deferred %}
@@ -90,9 +91,10 @@
 							{{ "HEADER_CALL"|t|e }}</div>
 
 							<div class="text-right d-inline" style="color: #fff;witdh:auto;height:auto;">
-							<a href="/eu/pl/" class="langflag" style="float:right;margin-left:10px;"><img src="/eu/user/themes/quarkextended/images/logo/pl-flag.png" width="22" height="16"></a>
-							<a href="/eu/en/" class="langflag" style="float:right;margin-left:10px;"><img src="/eu/user/themes/quarkextended/images/logo/uk-flag.png" width="22" height="16"></a>
+							<div id="langPL" class="langflag" style="float:right;margin-left:10px;"><img src="/eu/user/themes/quarkextended/images/logo/pl-flag.png" width="22" height="16"></div>
+							<div id="langENG" class="langflag" style="float:right;margin-left:10px;"><img src="/eu/user/themes/quarkextended/images/logo/uk-flag.png" width="22" height="16"></div>
 							</div>
+							
 						<!--<div class="text-right d-inline" style="padding-right: 20px; color: #fff;">
 						{% include 'partials/langswitcher.html.twig' %}</div>-->
 

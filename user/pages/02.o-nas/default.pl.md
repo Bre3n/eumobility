@@ -1,6 +1,7 @@
 ---
 title: 'O nas'
 menu: 'O NAS'
+slug: about-us
 media_order: 'o-nas.jpg,logo.png,logo-chorwacja.png,logo-szwecja.png,karolina-maciejewska.jpg,patrycja-pilarek.jpg,anush-poghosyan.jpg,katrina-vuka.jpg,karol-pilarek.jpg'
 taxonomy:
     tag:

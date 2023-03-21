@@ -1,6 +1,7 @@
 ---
 title: 'Projekty Erasmus+ dla pracodawców'
 media_order: 'people2.png,people.jpg'
+slug: erasmus-projects-for-employers
 ---
 
 Erasmus+ dla pracodawców
