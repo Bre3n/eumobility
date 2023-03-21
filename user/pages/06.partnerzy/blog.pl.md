@@ -19,11 +19,11 @@ placeholder
 ===
 <div id="partnersBox">
     <div class = "partners">
-        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-        <p style="text-align:center"> Nazwa partnera 1 </p> <br>
-        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-        <p style="text-align:center"> Nazwa partnera 2 </p> <br>
-        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width:200px;border:none"> </a> <br>
-        <p style="text-align:center"> Nazwa partnera 3 </p> <br>
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
+        <p style="text-align: center"> Nazwa partnera 1 </p> <br>
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
+        <p style="text-align: center"> Nazwa partnera 2 </p> <br>
+        <a href=""> <img src="/eu/user/pages/06.partnerzy/logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
+        <p style="text-align: center"> Nazwa partnera 3 </p> <br>
     </div>
 </div>
