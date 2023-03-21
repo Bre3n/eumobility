@@ -454,6 +454,18 @@ h1,
     -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
+.overlay-menu{
+    background-color: #486581;
+    opacity: 1;
+    color: white;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.503)
+}
+
 .dropmenu ul li a {
     margin-left: 5px;
     margin-right: 5px;
@@ -534,6 +546,15 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     -webkit-box-shadow: 0px -10px 22px 0px rgba(0, 0, 0, 0.25);
 }
 
+#totallyNotSuspiciousDiv{
+    text-decoration: none;
+    color: white;
+}
+
+#totallyNotSuspiciousDiv:hover{
+    cursor: context-menu;
+}
+
 #footer h6 {
     color: #fff;
     font-size: 120%;
@@ -548,8 +569,6 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     padding: 0px 10px 10px;
     padding-left: 10px;
 }
-
-
 
 .footer ul {
     margin-left: 10px;
