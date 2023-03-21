@@ -18,6 +18,15 @@
     padding-top: 12.5px;
 }
 
+/*------------------------------------------------------------------
+    [lang flag] [MG]
+------------------------------------------------------------------*/
+
+.langflag{
+    margin-top:10px;
+    width:22px;
+    height: 16px;
+}
 
 /*------------------------------------------------------------------
     [img hover]
@@ -756,5 +765,15 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         left: 20px;
         top:-1px;
         padding-top: 12.5px;
+    }
+
+    /*------------------------------
+        [lang flag]
+    ------------------------------*/
+
+    .langflag{
+        margin-top:8px;
+        width:18px;
+        height: 12px;
     }
 }
