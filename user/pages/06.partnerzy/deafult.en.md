@@ -1,6 +1,5 @@
 ---
 title: 'Our partners'
-slug: partners
 process:
     markdown: true
     twig: true
