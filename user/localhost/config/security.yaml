@@ -19,8 +19,6 @@ xss_dangerous_tags:
   - xml
   - blink
   - link
-  - style
-  - script
   - embed
   - object
   - frame
@@ -31,10 +29,6 @@ xss_dangerous_tags:
   - title
   - base
 uploads_dangerous_extensions:
-  - php
-  - html
-  - htm
-  - js
   - exe
 sanitize_svg: true
 salt: NeHbWnxQZGFCXw

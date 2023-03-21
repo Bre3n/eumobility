@@ -69,8 +69,7 @@
 
 				<section class="section" id="sekcja" style="position: fixed; right: 0; z-index: 3; top: 0px; font-size: 0.6rem; line-height: 2rem; border-bottom: 1px solid rgba(0, 0, 0, 0.2); width: 100%; letter-spacing: 1px;">
 
-					<section
-						class="container {{ grid_size }} text-right">
+					<section class="container {{ grid_size }} text-right">
 
 						{#! Dark theme switcher #}
 
@@ -89,7 +88,13 @@
 							<i class="fab fa-whatsapp" style="margin-right: 10px;"></i>
 							<i class="fas fa-phone-alt" style="margin-right: 10px;"></i>
 							{{ "HEADER_CALL"|t|e }}</div>
-						<div class="text-right d-inline" style="padding-right: 20px; color: #fff;">{% include 'partials/langswitcher.html.twig' %}</div>
+
+							<div class="text-right d-inline" style="padding-right: 20px; color: #fff;witdh:auto;height:auto;">
+							<a href="/eu/en/" style="width:16px;height:16px;margin:0px;float:right;margin-right:10px;"><img src="/eu/user/themes/quarkextended/images/logo/pl-flag.png" width="16" height="16"></a>
+							<a href="/eu/pl/" style="width:16px;height:16px;margin:0px;float:right;margin-right:10px;"><img src="/eu/user/themes/quarkextended/images/logo/uk-flag.png" width="16" height="16"></a>
+							</div>
+						<!--<div class="text-right d-inline" style="padding-right: 20px; color: #fff;">
+						{% include 'partials/langswitcher.html.twig' %}</div>-->
 
 					</section>
 				</section>
