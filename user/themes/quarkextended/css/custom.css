@@ -698,8 +698,10 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     margin-top: 150px !important;
 }
 
+/*----------------------------------------------------------------
+    FOR MOBILE VERSION OF THE SITE
+----------------------------------------------------------------*/
 
-/* FOR MOBILE */
 @media only screen and (max-width: 768px) {
     .parallax-content {
         padding: 0 0 0 20px;
