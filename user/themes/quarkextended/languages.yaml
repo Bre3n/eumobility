@@ -8,6 +8,7 @@ pl:
     CONTACT: 'Kontakt'
     PRIVACY: 'Polityka Prywatności i Cookies'
     INFORMATIONS: 'Informacje'
+    AUTHORS: 'Autorzy'
 en:
     HEADER_CALL: 'Call: 00 48 501 77 20 19'
     POLAND: 'Poland'
@@ -18,3 +19,4 @@ en:
     CONTACT: 'Contact'
     PRIVACY: 'Privacy and cookies'
     INFORMATIONS: 'Informations'
+    AUTHORS: 'Authors'
