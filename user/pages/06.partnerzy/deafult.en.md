@@ -11,6 +11,7 @@ taxonomy:
     tag:
         - to_menu_footer_informacje
 menu: PARTNERS
+slug: partners
 ---
 
 placeholder
