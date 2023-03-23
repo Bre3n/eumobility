@@ -106,7 +106,7 @@ Jesteśmy profesjonalnym centrum edukacyjnym mającym na celu umożliwienie mło
     <i class="fa-regular fa-thumbs-up" style="margin-right: 10px; color: #fa4bb1; font-size: 3rem;"></i><br><br>
   <p class="empty-title h5">Jeśli szukasz partnera do projektu Erasmus+ dla Twojej szkoły jesteśmy idealnym wyborem!
 Jesteśmy organizacją goszczącą w kilku krajach UE.
-Nie wiesz jak napisać wniosek aplikacyjny Erasmus+ skontaktuj się z nami – pomożemy Ci zdobyć fundusze</p>
+Nie wiesz jak napisać wniosek aplikacyjny Erasmus+? skontaktuj się z nami – pomożemy Ci zdobyć fundusze</p>
   <p class="empty-subtitle">Posiadamy wszystkie zezwolenia i certyfikaty.</p>
 </div>
 

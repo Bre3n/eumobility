@@ -71,6 +71,24 @@
     text-align: center;
 }
 
+.mobileInformation1{
+    background-image: url("/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 25px; 
+    border-radius: 10px 0px 0px 10px; 
+    box-shadow: -5px 0px 22px 0px rgba(0,0,0,0.27);
+}
+
+.mobileInformation2{
+    background-image: url("/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 25px; 
+    border-radius: 0px 10px 10px 0px; 
+    box-shadow: 5px 0px 22px 0px rgba(0,0,0,0.27);
+}
+
 /*------------------------------------------------------------------
     [partners]
 ------------------------------------------------------------------*/
@@ -211,6 +229,11 @@ body.darkMode {
 section.darkMode {
     background-color: var(--darkMode_header);
     opacity: 0.9;
+}
+
+#darkMaps.darkMode{
+    background-color: var(--darkMode_second);
+    color: white;
 }
 
 #footer.darkMode {
@@ -759,6 +782,11 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     margin-top: 150px !important;
 }
 
+.loloo{
+    margin-left: -120px;
+    margin-right: 120px;
+}
+
 /*----------------------------------------------------------------
     FOR MOBILE VERSION OF THE SITE
 ----------------------------------------------------------------*/
@@ -912,6 +940,14 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
 
     .contactBox{
         width: 100%;
-        box-shadow: none;
+        text-align: center;
+    }
+
+    .mobileInformation1{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .mobileInformation2{
+        border-radius: 0px 0px 10px 10px;
     }
 }

@@ -48,6 +48,11 @@ function modeDark() {
     }catch{
         //pass
     }
+    try{
+        document.getElementById("darkMaps").classList.add("darkMode");
+    }catch{
+        //pass
+    }
     //document.getElementsByClassName("columns")[0].addRule("color","black;");
 }
 
@@ -73,6 +78,11 @@ function modeLight() {
     }
     try{
         document.getElementById("emptyDarkSecond").classList.remove("darkMode");
+    }catch{
+        //pass
+    }
+    try{
+        document.getElementById("darkMaps").classList.remove("darkMode");
     }catch{
         //pass
     }

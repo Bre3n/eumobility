@@ -104,7 +104,7 @@ We are a professional educational center aimed at enabling young people and adul
  
 <div class="empty" id="emptyDarkSecond" style="color:#50596cte;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);"> 
     <i class="fa-regular fa-thumbs-up" style="margin-right: 10px; color: #fa4bb1; font-size: 3rem;"></i><br><br>
-  <p class="empty-title h5">JIf you are looking for an Erasmus partner for your school, we are the perfect choice!
+  <p class="empty-title h5">If you are looking for an Erasmus partner for your school, we are the perfect choice!
       
 We are a hosting organization in several EU countries.
 Do you want to know how to write an Erasmus application? Contact us - we will help you get fundings.</p>
