@@ -57,9 +57,9 @@ As part of the Erasmus+ program, we organize comprehensive implementation of pro
   <p>
       
       Projects matched to your needs - interests:<br><br>
-      <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ FOR SCHOOLS</a> 
+      <a href="/eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ FOR SCHOOLS</a> 
     
-      <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ FOR EMPLOYERS</a>
+      <a href="/eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ FOR EMPLOYERS</a>
     
     </p>
   <p class="empty-subtitle">We also organize individual projects based on your idea.</p>

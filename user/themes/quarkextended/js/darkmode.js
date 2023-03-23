@@ -38,6 +38,7 @@ function modeDark() {
     document.getElementById("ball_mg_id").classList.add("darkMode");
     document.getElementById("sun").classList.add("darkMode");
     document.getElementById("moon").classList.add("darkMode");
+    document.getElementById("return-to-top").classList.add("darkMode");
     try {
         document.getElementById("partnersBox").classList.add("darkMode");
     } catch {
@@ -65,6 +66,7 @@ function modeLight() {
     document.getElementById("ball_mg_id").classList.remove("darkMode");
     document.getElementById("sun").classList.remove("darkMode");
     document.getElementById("moon").classList.remove("darkMode");
+    document.getElementById("return-to-top").classList.remove("darkMode");
     try {
         document.getElementById("partnersBox").classList.remove("darkMode");
     } catch {

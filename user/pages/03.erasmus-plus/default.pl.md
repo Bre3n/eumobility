@@ -57,9 +57,9 @@ W ramach programu Erasmus+ organizujemy kompleksową realizacje projektów w kil
   <p>
       
       Projekty dopasowane do Twoich potrzeb - zainteresowań:<br><br>
-      <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ DLA SZKÓŁ</a> 
+      <a href="eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ DLA SZKÓŁ</a> 
     
-      <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ DLA PRACODAWCÓW</a>
+      <a href="eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ DLA PRACODAWCÓW</a>
     
     </p>
   <p class="empty-subtitle">Organizujemy także indywidualne projekty wg Twojego pomysłu.</p>

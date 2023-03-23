@@ -22,18 +22,18 @@
     [lang flag] [MG]
 ------------------------------------------------------------------*/
 
-.langflag{
-    margin-top:12px;
-    width:22px;
+.langflag {
+    margin-top: 12px;
+    width: 22px;
     height: 16px;
 }
 
-.langflag:hover{
+.langflag:hover {
     transition-duration: 600ms;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*------------------------------------------------------------------
@@ -67,7 +67,7 @@ img:hover {
     border: none;
 }
 
-.img-fit-cover{
+.img-fit-cover {
     border-radius: 10px;
 }
 
@@ -75,7 +75,7 @@ img:hover {
     [article stylesheet]
 ------------------------------------------------------------------*/
 
-.p-centered{
+.p-centered {
     text-align: center;
 }
 
@@ -83,12 +83,12 @@ img:hover {
     [partners]
 ------------------------------------------------------------------*/
 
-#partnersBox{
+#partnersBox {
     background-color: white;
     width: 45%;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.43);
+    box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.43);
     padding-top: 60px;
 }
 
@@ -223,17 +223,17 @@ section.darkMode {
     background-color: var(--darkMode_header);
 }
 
-#emptyDark.darkMode{
+#emptyDark.darkMode {
     background-color: var(--darkMode_second);
     color: white;
 }
 
-#emptyDarkSecond.darkMode{
+#emptyDarkSecond.darkMode {
     background-color: var(--darkMode_second);
     color: white;
 }
 
-#partnersBox.darkMode{
+#partnersBox.darkMode {
     background-color: var(--darkMode_second);
 }
 
@@ -264,6 +264,57 @@ p.darkMode {
     color: #f1c40f;
     transition-duration: 500ms;
 }
+
+#return-to-top.darkMode{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/*------------------------------------------------------------------
+    [Scroll button]
+------------------------------------------------------------------*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border:none;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: -5px;
+}
+
 
 /*------------------------------------------------------------------
     [langswitcher]
@@ -307,7 +358,7 @@ p.darkMode {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
@@ -320,6 +371,7 @@ a:hover{
 /* For all / mobile: */
 
 body {
+    scroll-behavior: smooth;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -463,7 +515,7 @@ h1,
     -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
-.overlay-menu{
+.overlay-menu {
     background-color: #486581;
     opacity: 1;
     color: white;
@@ -471,7 +523,7 @@ h1,
     border-radius: 0px 0px 10px 10px;
 }
 
-#overlay{
+#overlay {
     background-color: rgba(0, 0, 0, 0.503)
 }
 
@@ -556,12 +608,12 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     -webkit-box-shadow: 0px -10px 22px 0px rgba(0, 0, 0, 0.25);
 }
 
-#totallyNotSuspiciousDiv{
+#totallyNotSuspiciousDiv {
     text-decoration: none;
     color: white;
 }
 
-#totallyNotSuspiciousDiv:hover{
+#totallyNotSuspiciousDiv:hover {
     cursor: context-menu;
 }
 
@@ -792,7 +844,7 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         padding-right: 20px;
         padding-left: 0px;
         left: 20px;
-        top:-1px;
+        top: -1px;
         padding-top: 12.5px;
     }
 
@@ -800,9 +852,21 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         [lang flag]
     ------------------------------*/
 
-    .langflag{
-        margin-top:8px;
-        width:18px;
+    .langflag {
+        margin-top: 8px;
+        width: 18px;
         height: 12px;
+    }
+
+    /*------------------------------
+        [Scroll Btn]
+    ------------------------------*/
+    #return-to-top:hover {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    
+    #return-to-top:hover i {
+        color: #fff;
+        top: 0px;
     }
 }
