@@ -707,6 +707,15 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     line-height: 18px;
 }
 
+.contactBox{
+    padding-top: 25px; 
+    margin: auto; 
+    width: 35%; 
+    height: 150px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+}
+
 .offers-list {
     border-style: solid;
     border-width: 1px;
@@ -903,5 +912,14 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     .loloo{
         margin-left: -15px;
         padding-bottom: 12px;
+    }
+
+    /*------------------------------
+        [contact box]
+    ------------------------------*/
+
+    .contactBox{
+        width: 100%;
+        box-shadow: none;
     }
 }

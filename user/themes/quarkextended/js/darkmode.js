@@ -26,7 +26,6 @@ modeBtn.onchange = (e) => {
         window.localStorage.setItem('mode', 'light');
         modeLight();
     }
-
 }
 
 // Zmiana motywu na ciemny
