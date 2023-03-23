@@ -14,8 +14,6 @@ taxonomy:
 menu: PARTNERZY
 ---
 
-placeholder
-
 ===
 <div id="partnersBox">
     <div class = "partners">
@@ -41,7 +39,7 @@ placeholder
         <a href="https://disgustingfoodmuseum.com/" target="_blank"> <img class="partnerLogo" src="https://disgustingfoodmuseum.com/wp-content/uploads/2018/12/Favicon-very-new.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
         <p style="text-align: center"> Disgusting Food Museum </p> <br> <br>
         <!-- Malmö Museer -->
-        <a href="https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Museer.html" target="_blank"> <img class="partnerLogo" src="\eu\user\pages\06.partnerzy\logo-placeholder.png" alt="placeholder" style="width: 200px;border:none;"> </a> <br>
+        <a href="https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Museer.html" target="_blank"> <img class="partnerLogo" src="https://southernswedendesigndays.com/sites/default/files/styles/medium/public/2022-11/Malmo%CC%88%20Stad%20logo%402x.png?itok=me8j5KpI" alt="placeholder" style="width: 320px;border:none;"> </a> <br>
         <p style="text-align: center"> Malmö Museer </p> <br> <br>
         <!-- Poolstar -->
         <a href="http://www.poolstar.se/" target="_blank"> <img class="partnerLogo" src="\eu\user\pages\06.partnerzy\poolstarLogo.png" alt="placeholder" style="width: 300px;border:none; border-radius: 10px;box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.48)"> </a> <br>
@@ -50,7 +48,7 @@ placeholder
         <a href="https://www.bazaarfoodmarket.se/" target="_blank"> <img class="partnerLogo" src="https://d1r8abvi6c1fdj.cloudfront.net/media?url=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-pLI36S0OmEbEkU2A1NH3&w=300&sign=6CEBpPSBqkCZkRYS0XwhDAA7NWy2beAd4W42zOQwfJQ" alt="placeholder" style="width: 250px;border:none"> </a> <br>
         <p style="text-align: center"> Bazaar Food Market </p> <br> <br>
         <!-- ÖE Terminal -->
-        <a href="" target="_blank"> <img class="partnerLogo" src="\eu\user\pages\06.partnerzy\logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
+        <a href="https://www.ashirson.se/" target="_blank"> <img class="partnerLogo" src="https://www.ashirson.se/wp-content/uploads/2021/09/logo-light-bg-300x84.png" alt="placeholder" style="width: 250px;border:none"> </a> <br>
         <p style="text-align: center"> ÖE Terminal </p> <br> <br>
         <!-- -->
         <a href="" target="_blank"> <img class="partnerLogo" src="\eu\user\pages\06.partnerzy\logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
