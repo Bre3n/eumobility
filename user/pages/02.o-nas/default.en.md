@@ -39,7 +39,7 @@ We are a professional educational center aimed at enabling young people and adul
 
 <div class="columns text-centered"  style="margin-bottom: 20px;">
     <div class="column col-6 col-md-12 text-center" style="padding: 40px;">
-        <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);"></p>
+        <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
         <p style="font-weight: bold;">Patrycja Pilarek<p>
         <p>CEO<br><br>            
         <a href="mailto:{{ 'patrycja@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
@@ -47,7 +47,7 @@ We are a professional educational center aimed at enabling young people and adul
         <p class="text-center" style="text-align: justify;"></p>       
     </div>
     <div class="column col-6 col-md-12 text-center" style="padding: 40px">        
-        <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);"></p>
+        <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
         <p style="font-weight: bold;">Karol Pilarek<p>
         <p>Executive Director<br><br>            
         <a href="mailto:{{ 'karolpilarek@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
@@ -58,7 +58,7 @@ We are a professional educational center aimed at enabling young people and adul
 <div class="columns">
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center" >
                         <h3><strong>EU Mobility Poland:</strong></h3><br>
-                        <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                         <p style="font-weight: bold;">Karolina Maciejewska<p>        
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'karolina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>
@@ -66,7 +66,7 @@ We are a professional educational center aimed at enabling young people and adul
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">                       
                          <h3><strong>EU Mobility Sverige:</strong></h3><br>	
-                         <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);"></p>
+                         <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                           <p style="font-weight: bold;">Anush Poghosyan<p>
                           <p>Office Manager<br><br>
                           <a href="mailto:{{ 'projects@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                        
@@ -74,7 +74,7 @@ We are a professional educational center aimed at enabling young people and adul
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">
 						<h3><strong>EU Mobility Croatia:</strong></h3><br>
-                        <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);"></p>
+                        <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                         <p style="font-weight: bold;">Katrina Vuka<p>
                         <p>Office Manager<br><br>                            
                         <a href="mailto:{{ 'katarina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                    
@@ -93,10 +93,10 @@ We are a professional educational center aimed at enabling young people and adul
 <div class="container">
     <div class="columns">  
         <div class="column col-6 col-md-12 text-center">
-            <img src="/eu/user/pages/02.o-nas/logo-szwecja.png" class="img-fit-cover" alt="eu mobility sverige internship training logo">
+            <img src="/eu/user/pages/02.o-nas/logo-szwecja.png" class="img-fit-cover img-hover" alt="eu mobility sverige internship training logo">
         </div>
         <div class="column col-6 col-md-12 text-center m-top-50">   
-            <img src="/eu/user/pages/02.o-nas/logo-chorwacja.png" class="img-fit-cover" alt="eu mobility croatia internships training logo">
+            <img src="/eu/user/pages/02.o-nas/logo-chorwacja.png" class="img-fit-cover img-hover" alt="eu mobility croatia internships training logo">
         </div>
     </div>
 </div>
