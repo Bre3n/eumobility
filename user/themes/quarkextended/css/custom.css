@@ -39,17 +39,13 @@
 /*------------------------------------------------------------------
     [img hover]
 ------------------------------------------------------------------*/
-
-img {
-    overflow: hidden;
-    padding: 0;
-    border: solid 1px black;
-}
-
 img {
     transition-duration: 1.6s;
     margin: 0 auto;
     display: block;
+    overflow: hidden;
+    padding: 0;
+    border: solid 1px black;
 }
 
 img:hover {
