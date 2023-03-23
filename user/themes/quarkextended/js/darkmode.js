@@ -1,5 +1,4 @@
 const modeBtn = document.getElementById('chk');
-abc = 1;
 // [Mateusz Goinda]
 //Ustawianie motywu wg. plików lokalnych
 const mode = window.localStorage.getItem('mode');
@@ -13,10 +12,6 @@ if (mode == 'dark') {
 
 // Przełączenie switcha chk/checkbox_mg
 modeBtn.onchange = (e) => {
-    abc = abc + 1;
-    if (abc == 10) {
-        console.log("JEBAC TOMKA");
-    }
     if (modeBtn.checked === true) {
 
         window.localStorage.setItem('mode', 'dark');
