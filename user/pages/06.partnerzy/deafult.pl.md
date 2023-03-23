@@ -72,10 +72,5 @@ menu: PARTNERZY
         <a href="https://www.ashirson.se/" target="_blank"> <img class="partnerLogo" src="https://www.ashirson.se/wp-content/uploads/2021/09/logo-light-bg-300x84.png" alt="placeholder" style="width: 250px;border:none"> </a> <br>
         <p style="text-align: center"> ÖE Terminal </p> <br> <br>
     </div>
-    <!-- -->
-    <div>
-        <a href="" target="_blank"> <img class="partnerLogo" src="\eu\user\pages\06.partnerzy\logo-placeholder.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
-        <p style="text-align: center"> placeholder </p> <br>
-    </div>
     </div>
 </div>
