@@ -18,7 +18,7 @@ menu: PARTNERZY
 <div id="partnersBox">
     <div class = "partners">
     <!-- IndSol Group -->
-    <div class="partnerLogo" > 
+    <div class="partnerLogo" style="margin-left:auto;margin-right:auto;"> 
         <a href="https://indsolgroup.com/" target="_blank"> <img class="partnerLogo" src="https://indsolgroup.com/wp-content/uploads/2023/02/IndSol-Logo-1.png" alt="placeholder" style="width: 350px; height: auto; border:none;"> </a> <br>
         <p style="text-align: center"> IndSol Group </p> <br> <br>
     </div>
