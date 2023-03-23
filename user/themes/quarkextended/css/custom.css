@@ -752,6 +752,11 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     margin-top: 150px !important;
 }
 
+.loloo{
+    margin-right: 120px;
+    margin-left: -120px;
+}
+
 /*----------------------------------------------------------------
     FOR MOBILE VERSION OF THE SITE
 ----------------------------------------------------------------*/
@@ -885,5 +890,14 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     #return-to-top:hover i {
         color: #fff;
         top: 0px;
+    }
+
+    /*------------------------------
+        [navbar img margin]
+    ------------------------------*/
+
+    .loloo{
+        margin-left: -15px;
+        padding-bottom: 12px;
     }
 }
