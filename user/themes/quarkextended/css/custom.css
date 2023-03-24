@@ -18,12 +18,13 @@
     padding-top: 12.5px;
 }
 
-#linktel{
-    color:#50596c;
+#linktel {
+    color: #50596c;
 }
 
-#linktel.darkMode{
-    color:#fff;
+#linktel.darkMode {
+    color: #fff;
+    transition-duration: 500ms;
 }
 
 /*------------------------------------------------------------------
@@ -79,22 +80,22 @@
     text-align: center;
 }
 
-.mobileInformation1{
-    background-image: url("/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg"); 
-    background-size: cover; 
-    background-position: center; 
-    padding: 25px; 
-    border-radius: 10px 0px 0px 10px; 
-    box-shadow: -5px 0px 22px 0px rgba(0,0,0,0.27);
+.mobileInformation1 {
+    background-image: url("/eu/user/pages/01.start/dla-szkol-erasmus-plus.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px 0px 22px 0px rgba(0, 0, 0, 0.27);
 }
 
-.mobileInformation2{
-    background-image: url("/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg"); 
-    background-size: cover; 
-    background-position: center; 
-    padding: 25px; 
-    border-radius: 0px 10px 10px 0px; 
-    box-shadow: 5px 0px 22px 0px rgba(0,0,0,0.27);
+.mobileInformation2 {
+    background-image: url("/eu/user/pages/01.start/dla-pracodawcow-erasmus-plus.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 5px 0px 22px 0px rgba(0, 0, 0, 0.27);
 }
 
 /*------------------------------------------------------------------
@@ -112,11 +113,11 @@
     text-align: center;
 }
 
-#partnerLogo{
+#partnerLogo {
     transition-duration: 1s;
 }
 
-#partnerLogo:hover{
+#partnerLogo:hover {
     transform: scale(1.1);
     transition-duration: 1s;
 }
@@ -241,34 +242,65 @@
 body.darkMode {
     background-color: var(--darkMode_main);
     color: white;
+    transition-duration: 500ms;
 }
 
-section.darkMode {
+#sekcja.darkMode {
     background-color: var(--darkMode_header);
     opacity: 0.9;
+    transition-duration: 500ms;
 }
 
-#darkMaps.darkMode{
+#sekcja{
+    transition-duration: 500ms;
+}
+
+#darkMaps.darkMode {
     background-color: var(--darkMode_second);
     color: white;
+    transition-duration: 500ms;
+}
+
+#darkMaps {
+    transition-duration: 500ms;
 }
 
 #footer.darkMode {
     background-color: var(--darkMode_header);
+    transition-duration: 500ms;
+}
+
+#footer{
+    transition-duration: 500ms;
 }
 
 #emptyDark.darkMode {
     background-color: var(--darkMode_second);
     color: white;
+    transition-duration: 500ms;
+}
+
+#emptyDark{
+    transition-duration: 500ms;
 }
 
 #emptyDarkSecond.darkMode {
     background-color: var(--darkMode_second);
     color: white;
+    transition-duration: 500ms;
+}
+
+#emptyDarkSecond{
+    transition-duration: 500ms;
 }
 
 #partnersBox.darkMode {
     background-color: var(--darkMode_second);
+    transition-duration: 500ms;
+}
+
+#partnersBox{
+    transition-duration: 500ms;
 }
 
 p.darkMode {
@@ -282,10 +314,12 @@ p.darkMode {
 
 .label_mg.darkMode {
     background-color: #fff;
+    transition-duration: 500ms;
 }
 
 .ball_mg.darkMode {
     background-color: var(--darkMode_main);
+    transition-duration: 500ms;
 }
 
 
@@ -299,8 +333,13 @@ p.darkMode {
     transition-duration: 500ms;
 }
 
-#return-to-top.darkMode{
+#return-to-top.darkMode {
     background: rgba(0, 0, 0, 0.7);
+    transition-duration: 500ms;
+}
+
+#return-to-top{
+    transition-duration: 500ms;
 }
 
 /*------------------------------------------------------------------
@@ -323,7 +362,7 @@ p.darkMode {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border:none;
+    border: none;
 }
 
 #return-to-top i {
@@ -407,6 +446,7 @@ a:hover {
 body {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+    transition-duration: 500ms;
 }
 
 h1,
@@ -641,13 +681,13 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     -webkit-box-shadow: 0px -10px 22px 0px rgba(0, 0, 0, 0.25);
 }
 
-#authors{
+#authors {
     color: white;
     font-size: 0.8em;
     text-align: center;
 }
 
-#totallyNotSuspiciousDiv{
+#totallyNotSuspiciousDiv {
     text-decoration: none;
     color: white;
 }
@@ -740,13 +780,13 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     line-height: 18px;
 }
 
-.contactBox{
-    padding-top: 25px; 
-    margin: auto; 
-    width: 35%; 
-    height: 150px; 
-    border-radius: 10px; 
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+.contactBox {
+    padding-top: 25px;
+    margin: auto;
+    width: 35%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
 }
 
 .offers-list {
@@ -798,7 +838,7 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     margin-top: 150px !important;
 }
 
-.loloo{
+.loloo {
     margin-left: -120px;
     margin-right: 120px;
 }
@@ -913,20 +953,20 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         height: 12px;
     }
 
-    #partnersBox{
+    #partnersBox {
         width: 270px;
         box-shadow: none;
     }
 
-    #partnersBox.darkMode{
+    #partnersBox.darkMode {
         background-color: var(--darkMode_main);
     }
 
-    .partnerLogo{
+    .partnerLogo {
         width: 50px;
         margin-left: auto;
         margin-right: auto;
-    } 
+    }
 
 
     /*------------------------------
@@ -935,7 +975,7 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     #return-to-top:hover {
         background: rgba(0, 0, 0, 0.7);
     }
-    
+
     #return-to-top:hover i {
         color: #fff;
         top: 0px;
@@ -945,7 +985,7 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         [navbar img margin]
     ------------------------------*/
 
-    .loloo{
+    .loloo {
         margin-left: -15px;
         padding-bottom: 12px;
     }
@@ -954,16 +994,29 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         [contact box]
     ------------------------------*/
 
-    .contactBox{
+    .contactBox {
         width: 100%;
         text-align: center;
     }
 
-    .mobileInformation1{
+    .mobileInformation1 {
         border-radius: 10px 10px 0px 0px;
     }
 
-    .mobileInformation2{
+    .mobileInformation2 {
         border-radius: 0px 0px 10px 10px;
+    }
+}
+
+
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
     }
 }
