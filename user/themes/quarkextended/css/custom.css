@@ -343,6 +343,30 @@ p.darkMode {
 }
 
 /*------------------------------------------------------------------
+    [Custom scrollbar]
+------------------------------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1bd;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #008CD3;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0277b2;
+  }
+
+/*------------------------------------------------------------------
     [Scroll button]
 ------------------------------------------------------------------*/
 #return-to-top {
@@ -516,6 +540,7 @@ h1,
     border-color: #FFF;
     background-color: #fa4bb1;
     box-shadow: none;
+    transition-duration: 2s;
 }
 
 .p-10 {
@@ -529,6 +554,9 @@ h1,
 .treemenu li {
     line-height: 1.4rem;
     padding: 10px 0;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 .treemenu .toggler {
@@ -589,15 +617,26 @@ h1,
 }
 
 .overlay-menu {
-    background-color: #486581;
+    background-color: white;
     opacity: 1;
     color: white;
     height: auto;
-    border-radius: 0px 0px 10px 10px;
+    padding-top: 50px;
 }
 
 #overlay {
-    background-color: rgba(0, 0, 0, 0.503)
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.mobile-menu .button_container.active .bottom {
+    transform: translateY(-8px) translateX(0) rotate(-45deg);
+    background: #3085ee;
+}
+
+.mobile-menu .button_container.active .top {
+    transform: translateY(8px) translateX(0) rotate(45deg);
+    background: #3085ee;
 }
 
 .dropmenu ul li a {
@@ -1005,6 +1044,14 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
 
     .mobileInformation2 {
         border-radius: 0px 0px 10px 10px;
+    }
+
+    /*------------------------------
+        [images]
+    ------------------------------*/
+
+    .img-hover:hover{
+        transform: none;
     }
 }
 
