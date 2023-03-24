@@ -28,9 +28,9 @@ Go ahead, call or write.
     <div class="columns"> 
                 <div class = "contactBox" id = "emptyDark" content-align = "center">
                     <i class="fa fa-phone-square" style="color: #e40186; font-size: larger;"> </i>
-                    <i style="font-size: larger;">00 48 501 77 20 19 </i> 
+                    <i style="font-size: larger;"> 00 48 501 77 20 19 </i> 
                 <br><br>     
-                <i class="fa fa-envelope" style="color: #e40186; font-size: larger;"></i><span style="font-size:larger;">info@eumobility.pl</span> 
+                <i class="fa fa-envelope" style="color: #e40186; font-size: larger;"></i><span style="font-size:larger;"> info@eumobility.pl</span> 
                 </div> <br><br> 
                 <div style = "margin-top: 100px; margin-left: auto; margin-right: auto; text-align: center;">
                     <a href="{{ base_url }}" class="navbar-brand mr-10"><img src="/eu/user/themes/quarkextended/images/logo/logo3x.png" alt="EU Mobility logo"  style="width: 80%;border:none;pointer-events: none; margin: auto;"></a>
