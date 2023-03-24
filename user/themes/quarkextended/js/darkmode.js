@@ -26,7 +26,7 @@ modeBtn.onchange = (e) => {
 // Zmiana motywu na ciemny
 function modeDark() {
     console.log("Darkmode switched to dark")
-    document.body.classList.add('darkMode');
+    document.getElementById("start").classList.add('darkMode');
     document.getElementById("sekcja").classList.add("darkMode");
     document.getElementById("label_mg_id").classList.add("darkMode");
     document.getElementById("ball_mg_id").classList.add("darkMode");
@@ -59,7 +59,7 @@ function modeDark() {
 // Zmiana motywu na jasny (default)
 function modeLight() {
     console.log("Darkmode switched to light")
-    document.body.classList.remove('darkMode');
+    document.getElementById("start").classList.remove('darkMode');
     document.getElementById("sekcja").classList.remove("darkMode");
     document.getElementById("label_mg_id").classList.remove("darkMode");
     document.getElementById("ball_mg_id").classList.remove("darkMode");
