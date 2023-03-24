@@ -514,6 +514,9 @@ h1,
 .treemenu li {
     line-height: 1.4rem;
     padding: 10px 0;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 .treemenu .toggler {
@@ -1001,5 +1004,13 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
 
     .mobileInformation2{
         border-radius: 0px 0px 10px 10px;
+    }
+
+    /*------------------------------
+        [images]
+    ------------------------------*/
+
+    .img-hover:hover{
+        transform: none;
     }
 }
