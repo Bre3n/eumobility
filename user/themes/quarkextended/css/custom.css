@@ -344,22 +344,20 @@ p.darkMode {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 15px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1bd;
+    background: transparent;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #008CD3;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #0277b2;
+    background-clip: padding-box;
+    border-radius: 20px;
+    border: solid 2px rgba(0, 0, 0, 0);
   }
 
 /*------------------------------------------------------------------
