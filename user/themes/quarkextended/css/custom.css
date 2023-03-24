@@ -104,6 +104,15 @@
     text-align: center;
 }
 
+#partnerLogo{
+    transition-duration: 1s;
+}
+
+#partnerLogo:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
 /*------------------------------------------------------------------
     [parallax]
 ------------------------------------------------------------------*/
