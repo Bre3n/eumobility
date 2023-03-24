@@ -16,13 +16,13 @@ Comprehensively, safely and at the highest level!
 <div class="container" style="width:100%; margin:auto">
     <div class="columns" style="width:100%; margin:auto">  
         <div class="column col-6 col-md-12 text-center mobileInformation1"> 
-          <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" style="color: #fff; auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);" title="INFORMATION FOR SCHOOLS Erasmus+"> INFORMATION<br> FOR SCHOOLS </a></h4>
+          <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" style="color: #fff; auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);"> INFORMATION<br> FOR SCHOOLS </a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">  It's easy<br> with us!</p>
             <br><br>
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">LEARN MORE</a>            
         </div> 
         <div class="column col-6 col-md-12 text-center mobileInformation2"> 
-            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" title="INFORMATION FOR EMPLOYERS Erasmus+" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMATION <br>FOR EMPLOYERS</a></h4>
+            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMATION <br>FOR EMPLOYERS</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Do you want to<br> accept an intern?</p>
             <br><br>
             <a href="https://eumobility.eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF;">LEARN MORE</a>

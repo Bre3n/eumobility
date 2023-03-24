@@ -26,13 +26,14 @@ modeBtn.onchange = (e) => {
 // Zmiana motywu na ciemny
 function modeDark() {
     console.log("Darkmode switched to dark")
-    document.getElementById("start").classList.add('darkMode');
+    document.body.classList.add('darkMode');
     document.getElementById("sekcja").classList.add("darkMode");
     document.getElementById("label_mg_id").classList.add("darkMode");
     document.getElementById("ball_mg_id").classList.add("darkMode");
     document.getElementById("sun").classList.add("darkMode");
     document.getElementById("moon").classList.add("darkMode");
     document.getElementById("return-to-top").classList.add("darkMode");
+    document.getElementById("linktel").classList.add("darkMode");
     try {
         document.getElementById("partnersBox").classList.add("darkMode");
     } catch {
@@ -59,13 +60,14 @@ function modeDark() {
 // Zmiana motywu na jasny (default)
 function modeLight() {
     console.log("Darkmode switched to light")
-    document.getElementById("start").classList.remove('darkMode');
+    document.body.classList.remove('darkMode');
     document.getElementById("sekcja").classList.remove("darkMode");
     document.getElementById("label_mg_id").classList.remove("darkMode");
     document.getElementById("ball_mg_id").classList.remove("darkMode");
     document.getElementById("sun").classList.remove("darkMode");
     document.getElementById("moon").classList.remove("darkMode");
     document.getElementById("return-to-top").classList.remove("darkMode");
+    document.getElementById("linktel").classList.remove("darkMode");
     try {
         document.getElementById("partnersBox").classList.remove("darkMode");
     } catch {

@@ -22,7 +22,7 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
             <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF;">DOWIEDZ SIĘ WIĘCEJ</a>            
         </div> 
         <div class="column col-6 col-md-12 text-center mobileInformation2"> 
-            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" title="#" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMACJE <br> DLA PRACODAWCÓW</a></h4>
+            <h4 style="font-size: xx-large; font-weight: bold;"><a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" style="color: #fff; margin: .4rem auto; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;">INFORMACJE <br> DLA PRACODAWCÓW</a></h4>
             <p style="color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); font-size: larger;">Chcesz przyjąć <br>na praktyki  zawodowe?</p>
             <br><br>
             <a href="https://eumobility.eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: .4rem auto; color: #FFF;">DOWIEDZ SIĘ WIĘCEJ</a>

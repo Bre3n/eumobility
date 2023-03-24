@@ -18,6 +18,14 @@
     padding-top: 12.5px;
 }
 
+#linktel{
+    color:#50596c;
+}
+
+#linktel.darkMode{
+    color:#fff;
+}
+
 /*------------------------------------------------------------------
     [lang flag] [MG]
 ------------------------------------------------------------------*/
@@ -230,7 +238,7 @@
     [DarkMode class] [Mateusz Goinda]
 ------------------------------------------------------------------*/
 
-#start.darkMode {
+body.darkMode {
     background-color: var(--darkMode_main);
     color: white;
 }
@@ -397,7 +405,6 @@ a:hover {
 /* For all / mobile: */
 
 body {
-    scroll-behavior: smooth;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
