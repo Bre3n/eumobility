@@ -314,23 +314,19 @@ p.darkMode {
 
 .label_mg.darkMode {
     background-color: #fff;
-    transition-duration: 500ms;
 }
 
 .ball_mg.darkMode {
     background-color: var(--darkMode_main);
-    transition-duration: 500ms;
 }
 
 
 .fa-sun.darkMode {
     color: rgba(0, 0, 0, 0);
-    transition-duration: 500ms;
 }
 
 .fa-moon.darkMode {
     color: #f1c40f;
-    transition-duration: 500ms;
 }
 
 #return-to-top.darkMode {
