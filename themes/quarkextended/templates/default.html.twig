@@ -1,0 +1,31 @@
+{% extends 'partials/base.html.twig' %}
+{% set image1 = page.media.images|first %}
+
+{% block javascripts %}
+	{% do assets.addJs('theme://js/parallax.min.js', {group:'bottom'}) %}	
+	{{ parent() }}	{# reszta js z base.html.twig tutaj #}
+{% endblock %}
+
+{% block parallaxtoinclude %}
+	<div class="parallax-window default-pages" class="container grid-xl" data-parallax="scroll" data-image-src="{{ image1.url|e }}">
+        <div class="parallax-content" style="background-image: linear-gradient(to right, rgba(0, 140, 211, 1), rgba(255, 255, 255, 0.1)); padding-top: 200px; padding-bottom: 90px;">
+            <section class="container grid-xl">
+                <h1>{{ page.title|raw }}</h1>
+                {% if page.summary %}
+                    <p>{{ page.summary|raw }}</p>
+                {% endif %}		
+            </section>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+		{% if config.plugins.breadcrumbs.enabled %}
+			{% include 'partials/breadcrumbs.html.twig' %}
+		{% endif %} 
+ 
+        {% set content = page.content|slice(page.summary|length) %}
+        {{ content|raw }} 
+	
+{% endblock %}
