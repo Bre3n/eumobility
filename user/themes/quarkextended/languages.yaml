@@ -10,6 +10,11 @@ pl:
     PRIVACY: 'Polityka Prywatności i Cookies'
     INFORMATIONS: 'Informacje'
     AUTHORS: 'Autorzy'
+    JAVASCRIPT: 'eumobility.eu POTRZEBUJE JAVASCRIPT DLA POPRAWNEGO DZIAŁANIA STRONY!'
+    JAVASCRIPT2: "EN"
+    JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=pl"
+    JAVASCRIPTURL2: "en"
+    REPORT: 'Zgłoś błąd'
 en:
     HEADER_CALL: 'Call: 00 48 501 77 20 19'
     POLAND: 'Poland'
@@ -21,3 +26,8 @@ en:
     PRIVACY: 'Privacy and cookies'
     INFORMATIONS: 'Informations'
     AUTHORS: 'Authors'
+    JAVASCRIPT: 'eumobility.eu NEEDS JAVASCRIPT FOR THE WEBSITE TO FUNCTION PROPERLY!'
+    JAVASCRIPT2: "PL"
+    JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=en"
+    JAVASCRIPTURL2: "pl"
+    REPORT: 'Report a bug'

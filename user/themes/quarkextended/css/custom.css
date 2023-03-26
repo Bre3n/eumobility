@@ -239,7 +239,7 @@
 ------------------------------------------------------------------*/
 
 .darkModeTransition {
-    transition-duration: 500ms;
+    transition-duration: 700ms;
 }
 
 body.darkMode {

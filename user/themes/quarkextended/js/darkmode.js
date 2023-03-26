@@ -8,7 +8,7 @@ const sleep = async (milliseconds) => {
 // funkcja oczekujaca
 
 const darkModeTransition = async () => {
-    await sleep(500);
+    await sleep(700);
     modeLight(2);
 }
 
