@@ -1,0 +1,26 @@
+state: enabled
+email: karolpilarek@eumobility.pl
+fullname: Administrator2
+title: Administrator2
+language: en
+content_editor: default
+twofa_enabled: false
+twofa_secret: UTCXBNE5GLU7HXMSSXK5A3XKVWFUK3SV
+avatar: {  }
+hashed_password: $2y$10$xS5jFp.ZGGXsexb7i0KuGuWkbpjB8Ur4TR2B7ncH99Gd/gZdaZKy2
+access:
+  site:
+    login: true
+  admin:
+    login: true
+    super: true
+    cache: true
+    configuration: true
+    pages: true
+    maintenance: true
+    statistics: true
+    plugins: true
+    themes: true
+    tools: true
+    users: true
+    flex-objects: true

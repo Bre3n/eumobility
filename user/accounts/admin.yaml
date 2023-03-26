@@ -1,0 +1,11 @@
+state: enabled
+email: tomaszdg@gmail.com
+fullname: Admin
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$9YXH1EE1cJk6YrdqWirA..t/XwPoV666gidyBGWDMSiNM/XAuGXSO
