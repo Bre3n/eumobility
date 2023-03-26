@@ -24,7 +24,6 @@
 
 #linktel.darkMode {
     color: #fff;
-    transition-duration: 500ms;
 }
 
 /*------------------------------------------------------------------
@@ -239,68 +238,43 @@
     [DarkMode class] [Mateusz Goinda]
 ------------------------------------------------------------------*/
 
+.darkModeTransition {
+    transition-duration: 500ms;
+}
+
 body.darkMode {
     background-color: var(--darkMode_main);
     color: white;
-    transition-duration: 500ms;
 }
 
 #sekcja.darkMode {
     background-color: var(--darkMode_header);
     opacity: 0.9;
-    transition-duration: 500ms;
-}
-
-#sekcja{
-    transition-duration: 500ms;
 }
 
 #darkMaps.darkMode {
     background-color: var(--darkMode_second);
     color: white;
-    transition-duration: 500ms;
-}
-
-#darkMaps {
-    transition-duration: 500ms;
 }
 
 #footer.darkMode {
     background-color: var(--darkMode_header);
-    transition-duration: 500ms;
-}
-
-#footer{
-    transition-duration: 500ms;
 }
 
 #emptyDark.darkMode {
     background-color: var(--darkMode_second);
     color: white;
-    transition-duration: 500ms;
 }
 
-#emptyDark{
-    transition-duration: 500ms;
-}
 
 #emptyDarkSecond.darkMode {
     background-color: var(--darkMode_second);
     color: white;
-    transition-duration: 500ms;
 }
 
-#emptyDarkSecond{
-    transition-duration: 500ms;
-}
 
 #partnersBox.darkMode {
     background-color: var(--darkMode_second);
-    transition-duration: 500ms;
-}
-
-#partnersBox{
-    transition-duration: 500ms;
 }
 
 p.darkMode {
@@ -331,11 +305,6 @@ p.darkMode {
 
 #return-to-top.darkMode {
     background: rgba(0, 0, 0, 0.7);
-    transition-duration: 500ms;
-}
-
-#return-to-top{
-    transition-duration: 500ms;
 }
 
 /*------------------------------------------------------------------
@@ -345,20 +314,20 @@ p.darkMode {
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: transparent;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #008CD3;
     background-clip: padding-box;
     border-radius: 20px;
     border: solid 2px rgba(0, 0, 0, 0);
-  }
+}
 
 /*------------------------------------------------------------------
     [Scroll button]
@@ -464,7 +433,6 @@ a:hover {
 body {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    transition-duration: 500ms;
 }
 
 h1,
@@ -1044,7 +1012,7 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
         [images]
     ------------------------------*/
 
-    .img-hover:hover{
+    .img-hover:hover {
         transform: none;
     }
 }
