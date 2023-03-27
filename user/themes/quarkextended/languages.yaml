@@ -10,7 +10,7 @@ pl:
     PRIVACY: 'Polityka Prywatności i Cookies'
     INFORMATIONS: 'Informacje'
     AUTHORS: 'Autorzy'
-    JAVASCRIPT: 'eumobility.eu POTRZEBUJE JAVASCRIPT DLA POPRAWNEGO DZIAŁANIA STRONY!'
+    JAVASCRIPT: 'Strona wymaga JavaScript do poprawnego działania!'
     JAVASCRIPT2: "EN"
     JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=pl"
     JAVASCRIPTURL2: "en"
@@ -26,7 +26,7 @@ en:
     PRIVACY: 'Privacy and cookies'
     INFORMATIONS: 'Informations'
     AUTHORS: 'Authors'
-    JAVASCRIPT: 'eumobility.eu NEEDS JAVASCRIPT FOR THE WEBSITE TO FUNCTION PROPERLY!'
+    JAVASCRIPT: 'The website needs JavaScript to work properly!'
     JAVASCRIPT2: "PL"
     JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=en"
     JAVASCRIPTURL2: "pl"
