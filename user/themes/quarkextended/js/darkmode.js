@@ -51,7 +51,8 @@ function modeDark(value) {
     if (value != 2) {
         console.log("Darkmode switched to dark params", darkList);
     }
-    document.body.classList.add(...darkList);
+    //document.body.classList.add(...darkList);
+    document.getElementById("start").classList.add(...darkList);
     document.getElementById("sekcja").classList.add(...darkList);
     document.getElementById("label_mg_id").classList.add(...darkList);
     document.getElementById("ball_mg_id").classList.add(...darkList);
@@ -95,8 +96,9 @@ function modeLight(value) {
     if (value != 2) {
         console.log("Darkmode switched to light params", darkList);
     }
-    document.body.classList.remove(...darkList);
+    //document.body.classList.remove(...darkList);
     document.getElementById("sekcja").classList.remove(...darkList);
+    document.getElementById("start").classList.remove(...darkList);
     document.getElementById("label_mg_id").classList.remove(...darkList);
     document.getElementById("ball_mg_id").classList.remove(...darkList);
     document.getElementById("sun").classList.remove(...darkList);

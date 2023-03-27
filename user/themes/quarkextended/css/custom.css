@@ -242,7 +242,7 @@
     transition-duration: 700ms;
 }
 
-body.darkMode {
+#start.darkMode {
     background-color: var(--darkMode_main);
     color: white;
 }
