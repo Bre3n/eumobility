@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------
-    [Zmiana języka [MG]]\
+    [Zmiana języka [MG]]
 ------------------------------------------------------------------------*/
 /*--     Event Listeners     --------------------------------*/
 document.getElementById('langPL').addEventListener('click', function (e) {
@@ -9,6 +9,7 @@ document.getElementById('langPL').addEventListener('click', function (e) {
 document.getElementById('langENG').addEventListener('click', function (e) {
     changeLanguage("ENG")
 });
+
 /*----------------- Podmiana jezyka z plików lokalnych (działa niepoprawnie)---------*/
 /*
 const lang = window.localStorage.getItem('lang');
@@ -23,7 +24,7 @@ else if (lang == 'ENG') {
 }*/
 /*---------------- Zmiana języka i ustawienie w plikach lokalnych ----*/
 function changeLanguage(language) {
-    const weblocation = window.location.href;
+    weblocation = window.location.href;
     if (language == "PL") {
         window.localStorage.setItem('lang', 'PL');
         location.href = weblocation.replace("en", "pl");
