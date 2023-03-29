@@ -42,7 +42,7 @@ We are a professional educational center aimed at enabling young people and adul
         <p><img src="/eu/user/pages/02.o-nas/patrycja-pilarek.jpg" alt="Patrycja Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
         <p style="font-weight: bold;">Patrycja Pilarek<p>
         <p>CEO<br><br>            
-        <a href="mailto:{{ 'patrycja@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
+        <a class=aboutMail href="mailto:{{ 'patrycja@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
         +48 501 772 019</p> 
         <p class="text-center" style="text-align: justify;"></p>       
     </div>
@@ -50,7 +50,7 @@ We are a professional educational center aimed at enabling young people and adul
         <p><img src="/eu/user/pages/02.o-nas/karol-pilarek.jpg" alt="Karol Pilarek" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
         <p style="font-weight: bold;">Karol Pilarek<p>
         <p>Executive Director<br><br>            
-        <a href="mailto:{{ 'karolpilarek@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
+        <a class=aboutMail href="mailto:{{ 'karolpilarek@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                    
         +48 886 532 519</p>
     </div>
 </div>
@@ -61,7 +61,7 @@ We are a professional educational center aimed at enabling young people and adul
                         <p><img src="/eu/user/pages/02.o-nas/karolina-maciejewska.jpg" alt="Karolina Maciejewska" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                         <p style="font-weight: bold;">Karolina Maciejewska<p>        
                         <p>Office Manager<br><br>                            
-                        <a href="mailto:{{ 'karolina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>
+                        <a class=aboutMail href="mailto:{{ 'karolina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>
                         +48 509 849 219</p>                 
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">                       
@@ -69,7 +69,7 @@ We are a professional educational center aimed at enabling young people and adul
                          <p><img src="/eu/user/pages/02.o-nas/anush-poghosyan.jpg" alt="Anush Poghosyan" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                           <p style="font-weight: bold;">Anush Poghosyan<p>
                           <p>Office Manager<br><br>
-                          <a href="mailto:{{ 'projects@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                        
+                          <a class=aboutMail href="mailto:{{ 'projects@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                        
                           +46 79 337 40 89</p>
                     </div>
                     <div class="column col-4 col-md-6 col-sm-12 mt-2 text-center">
@@ -77,7 +77,7 @@ We are a professional educational center aimed at enabling young people and adul
                         <p><img src="/eu/user/pages/02.o-nas/katrina-vuka.jpg" alt="Katrina Vuka" style=" width:80%;border-radius:20%;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);" class="img-hover"></p>
                         <p style="font-weight: bold;">Katrina Vuka<p>
                         <p>Office Manager<br><br>                            
-                        <a href="mailto:{{ 'katarina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                    
+                        <a class=aboutMail href="mailto:{{ 'katarina@eumobility.pl'|safe_email }}">Write an e-mail</a><br>                                    
                         +385 99 2173 962</p>
 					</div>
 </div>
