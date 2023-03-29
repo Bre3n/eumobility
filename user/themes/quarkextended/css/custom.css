@@ -713,15 +713,6 @@ body.header-fixed.header-animated #header.scrolled .navbar-section {
     text-align: center;
 }
 
-#totallyNotSuspiciousDiv {
-    text-decoration: none;
-    color: white;
-}
-
-#totallyNotSuspiciousDiv:hover {
-    cursor: context-menu;
-}
-
 #footer h6 {
     color: #fff;
     font-size: 120%;
