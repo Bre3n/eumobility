@@ -18,18 +18,18 @@ Poland, Croatia, Sweden
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/poland" ><img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polish flag"></a>
+        <a  href="/en/erasmus-plus/poland" ><img src="/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polish flag"></a>
         <br>
         <div class="p-centered"><strong>Erasmus+ in Poland:<br>Katowice</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/croatia" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="croatia flag"></a>        <br>
+        <a  href="/en/erasmus-plus/croatia" ><img src="/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="croatia flag"></a>        <br>
         <div class="p-centered"><strong>Erasmus+ in Croatia:<br> Split</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/sweden" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="sweden flag"></a> <br>
+        <a  href="/en/erasmus-plus/sweden" ><img src="/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="sweden flag"></a> <br>
         <div class="p-centered"><strong>Erasmus+ in Sweden: <br>Malmo</strong></div>
     </div>
 
@@ -57,9 +57,9 @@ As part of the Erasmus+ program, we organize comprehensive implementation of pro
   <p>
       
       Projects matched to your needs - interests:<br><br>
-      <a href="/eu/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ FOR SCHOOLS</a> 
+      <a href="/en/erasmus-plus/erasmus-projects-for-schools" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ FOR SCHOOLS</a> 
     
-      <a href="/eu/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ FOR EMPLOYERS</a>
+      <a href="/en/erasmus-plus/erasmus-projects-for-employers" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ FOR EMPLOYERS</a>
     
     </p>
   <p class="empty-subtitle">We also organize individual projects based on your idea.</p>

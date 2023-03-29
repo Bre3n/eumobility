@@ -45,16 +45,16 @@ Comprehensively, safely and at the highest level!
  
  <div class="columns" style="margin-bottom: 20px;">
     <div class="col-4 col-sm-12 p-10">
-        <a  href="eu/en/erasmus-plus/poland" ><img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polish flag"></a>
+        <a  href="eu/en/erasmus-plus/poland" ><img src="/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polish flag"></a>
         <br>
         <div class="p-centered" style="text-align:center">Erasmus+ in Poland:<br>Katowice</div>
     </div>
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/croatia" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="croatia flag"></a>        <br>
+        <a  href="/en/erasmus-plus/croatia" ><img src="/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="croatia flag"></a>        <br>
         <div class="p-centered" style="text-align:center">Erasmus+ in Croatia:<br> Split</div>
     </div>
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/en/erasmus-plus/sweden" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="Sweden flag"></a> <br>
+        <a  href="/en/erasmus-plus/sweden" ><img src="/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="Sweden flag"></a> <br>
         <div class="p-centered" style="text-align:center">Erasmus+ in Sweden: <br>Malmo</div>
     </div>
 

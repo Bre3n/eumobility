@@ -18,18 +18,18 @@ Polska. Chorwacja. Szwecja
  <div class="columns" style="margin-bottom: 20px;">
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/polska" ><img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polska flaga"></a>
+        <a  href="/pl/erasmus-plus/polska" ><img src="/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polska flaga"></a>
         <br>
         <div class="p-centered"><strong>Erasmus+ w Polsce:<br>Katowice</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="chorwacja flaga"></a>        <br>
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="chorwacja flaga"></a>        <br>
         <div class="p-centered"><strong>Erasmus+ w Chorwacji:<br> Split</strong></div>
     </div>
 
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="szwecja flaga"></a> <br>
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="szwecja flaga"></a> <br>
         <div class="p-centered"><strong>Erasmus+ w Szwecji: <br>Malmo</strong></div>
     </div>
 
@@ -57,9 +57,9 @@ W ramach programu Erasmus+ organizujemy kompleksową realizacje projektów w kil
   <p>
       
       Projekty dopasowane do Twoich potrzeb - zainteresowań:<br><br>
-      <a href="eu/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ DLA SZKÓŁ</a> 
+      <a href=/pl/erasmus-plus/projekty-erasmus-plus-dla-szkol" class="btn btn-lg btn-transp btn-purp" style="font-size: large; margin: 1rem; color: #FFF;">ERASMUS+ DLA SZKÓŁ</a> 
     
-      <a href="eu/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ DLA PRACODAWCÓW</a>
+      <a href="/pl/erasmus-plus/projekty-erasmus-plus-dla-pracodawcow" class="btn btn-lg btn-transp btn-purp" style="font-size: large; color: #FFF;">ERASMUS+ DLA PRACODAWCÓW</a>
     
     </p>
   <p class="empty-subtitle">Organizujemy także indywidualne projekty wg Twojego pomysłu.</p>
