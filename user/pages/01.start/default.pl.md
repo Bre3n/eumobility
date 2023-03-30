@@ -45,16 +45,16 @@ Kompleksowo, bezpiecznie i na najwyższym poziomie!
  
  <div class="columns" style="margin-bottom: 20px;">
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/polska"> <img src="/eu/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polska flaga"></a>
+        <a  href="/pl/erasmus-plus/polska"> <img src="/user/pages/01.start/polska.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="polska flaga"></a>
         <br>
         <div class="p-centered" style="text-align:center">Erasmus+ w Polsce:<br>Katowice</div>
     </div>
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/eu/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="chorwacja flaga"></a>        <br>
+        <a  href="/pl/erasmus-plus/chorwacja" ><img src="/user/pages/01.start/chorwacja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="chorwacja flaga"></a>        <br>
         <div class="p-centered" style="text-align:center">Erasmus+ w Chorwacji:<br> Split</div>
     </div>
     <div class="col-4 col-sm-12 p-10">
-        <a  href="/pl/erasmus-plus/szwecja" ><img src="/eu/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="szwecja flaga"></a> <br>
+        <a  href="/pl/erasmus-plus/szwecja" ><img src="/user/pages/01.start/szwecja.jpg" style="border:none;border-radius:10px;box-shadow: 0px 0px 47px -1px rgba(0,0,0,0.33);" class="img-fit-cover img-responsive img-hover" alt="szwecja flaga"></a> <br>
         <div class="p-centered" style="text-align:center">Erasmus+ w Szwecji: <br> Malmö </div>
     </div>
 

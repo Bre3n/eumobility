@@ -29,7 +29,7 @@ menu: PARTNERZY
     </div>
     <!-- ÖRS -->
     <div>
-        <a href="http://www.ors.se/" target="_blank"> <img id="partnerLogo" src="\eu\user\pages\06.partnerzy\orsLogo.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
+        <a href="http://www.ors.se/" target="_blank"> <img id="partnerLogo" src="\user\pages\06.partnerzy\orsLogo.png" alt="placeholder" style="width: 200px;border:none"> </a> <br>
         <p style="text-align: center"> ÖRS </p> <br> <br>
     </div>
     <!-- Lodjuret Hunddagis -->
@@ -59,7 +59,7 @@ menu: PARTNERZY
     </div>    
     <!-- Poolstar -->
     <div>
-        <a href="http://www.poolstar.se/" target="_blank"> <img id="partnerLogo" src="\eu\user\pages\06.partnerzy\poolstarLogo.png" alt="placeholder" style="width: 300px;border:none; border-radius: 10px;box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.48)"> </a> <br>
+        <a href="http://www.poolstar.se/" target="_blank"> <img id="partnerLogo" src="\user\pages\06.partnerzy\poolstarLogo.png" alt="placeholder" style="width: 300px;border:none; border-radius: 10px;box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.48)"> </a> <br>
         <p style="text-align: center"> Poolstar </p> <br> <br>
     </div>    
     <!-- Bazaar Food Market -->

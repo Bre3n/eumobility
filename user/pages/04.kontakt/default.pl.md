@@ -33,7 +33,7 @@ Chcesz zrealizować projekt Erasmus+ z nami?
                 <i class="fa fa-envelope" style="color: #e40186; font-size: larger;"></i><span style="font-size:larger;"> info@eumobility.pl</span> 
                 </div> <br><br> 
                 <div style = "margin-top: 100px; margin-left: auto; margin-right: auto;">
-                    <a href="{{ base_url }}" class="navbar-brand mr-10"><img src="/eu/user/themes/quarkextended/images/logo/logo3x.png" alt="EU Mobility logo"  style="width: 80%;border:none;pointer-events: none; margin: auto;"></a>
+                    <a href="{{ base_url }}" class="navbar-brand mr-10"><img src="/user/themes/quarkextended/images/logo/logo3x.png" alt="EU Mobility logo"  style="width: 80%;border:none;pointer-events: none; margin: auto;"></a>
                 </div> <br>
             </div>
     </div>

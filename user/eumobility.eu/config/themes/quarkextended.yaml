@@ -16,14 +16,14 @@ spectre:
   exp: false
   icons: false
 custom_logo:
-  eu/user/themes/quarkextended/images/logo/logo3x.png:
+  user/themes/quarkextended/images/logo/logo3x.png:
     name: logo3x.png
     type: image/png
     size: 104167
-    path: eu/user/themes/quarkextended/images/logo/logo3x.png
+    path: user/themes/quarkextended/images/logo/logo3x.png
 custom_logo_mobile:
-  eu/user/themes/quarkextended/images/logo/logo3x.png:
+  user/themes/quarkextended/images/logo/logo3x.png:
     name: logo3x.png
     type: image/png
     size: 39995
-    path: eu/user/themes/quarkextended/images/logo/logo3x.png
+    path: user/themes/quarkextended/images/logo/logo3x.png
