@@ -9,7 +9,8 @@ pl:
     CONTACT: 'Kontakt'
     PRIVACY: 'Polityka Prywatności i Cookies'
     INFORMATIONS: 'Informacje'
-    AUTHORS: 'Autorzy'
+    AUTHOR: 'Autor'
+    IMPROVEMENTS: 'Usprawnienia'
     JAVASCRIPT: 'Strona wymaga JavaScript do poprawnego działania!'
     JAVASCRIPT2: "EN"
     JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=pl"
@@ -25,7 +26,8 @@ en:
     CONTACT: 'Contact'
     PRIVACY: 'Privacy and cookies'
     INFORMATIONS: 'Informations'
-    AUTHORS: 'Authors'
+    AUTHOR: 'Author'
+    IMPROVEMENTS: 'Improvements'
     JAVASCRIPT: 'The website needs JavaScript to work properly!'
     JAVASCRIPT2: "PL"
     JAVASCRIPTURL: "https://support.google.com/adsense/answer/12654?hl=en"
