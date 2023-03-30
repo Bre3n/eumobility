@@ -254,3 +254,5 @@
 [2023-03-29 11:10:10] grav.WARNING: Plugin 'git-sync' enabled but not found! Try clearing cache with `bin/grav clearcache` [] []
 [2023-03-29 11:10:11] grav.WARNING: Plugin 'git-sync' enabled but not found! Try clearing cache with `bin/grav clearcache` [] []
 [2023-03-29 11:10:24] grav.WARNING: Plugin 'git-sync' enabled but not found! Try clearing cache with `bin/grav clearcache` [] []
+[2023-03-30 12:54:24] grav.WARNING: Plugin 'git-sync' enabled but not found! Try clearing cache with `bin/grav clearcache` [] []
+[2023-03-30 12:54:33] grav.WARNING: Plugin 'git-sync' enabled but not found! Try clearing cache with `bin/grav clearcache` [] []
